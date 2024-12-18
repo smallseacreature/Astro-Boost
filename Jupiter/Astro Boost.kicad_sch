@@ -3893,7 +3893,7 @@
 		)
 		(uuid "901ffc05-05b3-444d-a51f-694c9a69302d")
 	)
-	(text "link datasheets"
+	(text "double check all components, link datasheets and part numbers"
 		(exclude_from_sim no)
 		(at 236.982 81.026 0)
 		(effects
