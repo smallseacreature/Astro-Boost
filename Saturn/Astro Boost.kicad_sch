@@ -2746,10 +2746,10 @@
 		(uuid "2c70211f-a32f-45bc-972d-60d7619478b9")
 	)
 	(junction
-		(at 166.37 148.59)
+		(at 168.91 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "32135432-d18e-45d7-9164-44144b8cea62")
+		(uuid "2d28e315-1b42-4258-8436-168ea7b2b4d6")
 	)
 	(junction
 		(at 116.84 167.64)
@@ -2818,6 +2818,12 @@
 		(uuid "921c5221-9daa-4932-8db3-a11e84a6e142")
 	)
 	(junction
+		(at 168.91 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9f5a7f1-d237-414a-9864-91c52bf8c2d1")
+	)
+	(junction
 		(at 134.62 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2828,6 +2834,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8923be6-d460-41c1-bc0a-73c243e3fff4")
+	)
+	(junction
+		(at 168.91 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9ed1cb5-eeae-453f-8ad9-2cff76a00bf2")
 	)
 	(junction
 		(at 82.55 100.33)
@@ -3055,6 +3067,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 153.67) (xy 168.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c844a60-49d4-4504-b854-e5de3b686f47")
+	)
+	(wire
+		(pts
 			(xy 146.05 81.28) (xy 146.05 85.09)
 		)
 		(stroke
@@ -3082,6 +3104,16 @@
 			(type default)
 		)
 		(uuid "46a1ffa4-80bf-4a89-8c2a-2188946687ea")
+	)
+	(wire
+		(pts
+			(xy 168.91 143.51) (xy 173.99 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b16c30-7be9-4c48-a9dc-491986d29e4b")
 	)
 	(wire
 		(pts
@@ -3172,16 +3204,6 @@
 			(type default)
 		)
 		(uuid "55ca74b9-f99d-4404-a7ef-f4a3670db715")
-	)
-	(wire
-		(pts
-			(xy 166.37 156.21) (xy 166.37 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5906c191-88cf-4b46-8953-e43adb45bc09")
 	)
 	(wire
 		(pts
@@ -3295,6 +3317,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 140.97) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68531ed8-b0f6-461d-8bbe-73175d2386ec")
+	)
+	(wire
+		(pts
 			(xy 31.75 139.7) (xy 44.45 139.7)
 		)
 		(stroke
@@ -3345,6 +3377,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 146.05) (xy 168.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78202b6a-11f1-4daf-8f91-e54e952c78cc")
+	)
+	(wire
+		(pts
 			(xy 113.03 167.64) (xy 116.84 167.64)
 		)
 		(stroke
@@ -3375,7 +3417,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 153.67) (xy 161.29 157.48)
+			(xy 168.91 143.51) (xy 168.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c68165b-f7e6-4be4-8eab-e74a0676cc33")
+	)
+	(wire
+		(pts
+			(xy 161.29 146.05) (xy 161.29 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3392,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "8477c283-5f09-49dd-8cf0-e63dad3090fa")
+	)
+	(wire
+		(pts
+			(xy 168.91 156.21) (xy 168.91 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8620130c-980d-41d5-a43c-86acf7191084")
 	)
 	(wire
 		(pts
@@ -3562,16 +3624,6 @@
 			(type default)
 		)
 		(uuid "b6677c7e-3c29-41fb-adc5-db0f339ab156")
-	)
-	(wire
-		(pts
-			(xy 166.37 148.59) (xy 180.34 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b671c81d-7f20-42ee-9c48-a4ae8c284ba3")
 	)
 	(wire
 		(pts
@@ -3765,6 +3817,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 156.21) (xy 173.99 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78225f2-b470-4921-85a5-6b34ea8406de")
+	)
+	(wire
+		(pts
 			(xy 120.65 114.3) (xy 124.46 114.3)
 		)
 		(stroke
@@ -3795,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 148.59) (xy 166.37 148.59)
+			(xy 161.29 140.97) (xy 168.91 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3873,16 +3935,6 @@
 		)
 		(uuid "ffb7b84f-aaf0-4aa7-a165-fa26b3fe909e")
 	)
-	(text "Add pos/neg for electrolytic caps and d1/d2\nuse different filter caps, these are huge\nflip c7 so it matches\nwiden r5,r4, r2\nu1 footprint too wide\nr3 holes too small\nQ1 leads too close together\nmove power jack to other side"
-		(exclude_from_sim no)
-		(at 236.982 71.374 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8689b0c3-eab1-4068-9e37-2614ffd6b550")
-	)
 	(text "1. Connect J4 to Pin 2\n2. Connect j5 to Pin 3\n3. Connect j6 to Pin 8\n4. Connect J7 to Pin 1\n4. Connect J8 to pin 9\n5. Connect J9 to pin 5\n6. Connect J10 to pin 6"
 		(exclude_from_sim no)
 		(at 248.666 30.226 0)
@@ -3892,16 +3944,6 @@
 			)
 		)
 		(uuid "901ffc05-05b3-444d-a51f-694c9a69302d")
-	)
-	(text "link datasheets"
-		(exclude_from_sim no)
-		(at 236.982 81.026 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b0e79472-0403-4f8f-86b5-ebac4ef5f04c")
 	)
 	(global_label "+9V"
 		(shape input)
@@ -4015,7 +4057,7 @@
 	)
 	(global_label "Power from 9V"
 		(shape input)
-		(at 180.34 148.59 0)
+		(at 180.34 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4025,7 +4067,7 @@
 		)
 		(uuid "95047da9-234d-4822-b993-2d3eacee11e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.537 148.59 0)
+			(at 197.537 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4505,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 166.37 157.48 0)
+		(at 168.91 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4472,7 +4514,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a5b5089-1352-4969-9c7f-846b7aa1fd20")
 		(property "Reference" "#GND09"
-			(at 166.37 162.56 0)
+			(at 168.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4523,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 166.37 154.94 0)
+			(at 168.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 157.48 0)
+			(at 168.91 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4541,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 166.37 167.64 0)
+			(at 168.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4550,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 166.37 165.1 0)
+			(at 168.91 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,6 +4565,72 @@
 			(project "Astro Boost"
 				(path "/2ebdd105-6fc9-46b1-a9a7-54bfc637d7ef"
 					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 179.07 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "285972d0-4a93-4f89-812d-14a90bd2024c")
+		(property "Reference" "J12"
+			(at 180.3401 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "-9V"
+			(at 177.8001 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 179.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 179.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eac02ea-6994-4797-83b2-7a20546a221e")
+		)
+		(instances
+			(project "Astro Boost"
+				(path "/2ebdd105-6fc9-46b1-a9a7-54bfc637d7ef"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -4866,7 +4974,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 161.29 157.48 0)
+		(at 161.29 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4875,15 +4983,6 @@
 		(fields_autoplaced yes)
 		(uuid "3e7b97b0-69a1-403c-b45c-ee0e4a732f0b")
 		(property "Reference" "#GND08"
-			(at 161.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -4892,8 +4991,17 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "0"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" ""
-			(at 161.29 157.48 0)
+			(at 161.29 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +5010,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 161.29 167.64 0)
+			(at 161.29 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +5019,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 161.29 165.1 0)
+			(at 161.29 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal"
 			(at 64.77 147.32 0)
 			(effects
 				(font
@@ -5701,7 +5809,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Jack-DC")
-		(at 153.67 151.13 0)
+		(at 153.67 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5710,7 +5818,7 @@
 		(fields_autoplaced yes)
 		(uuid "863bf40b-41a3-4b07-a830-875c181cd16c")
 		(property "Reference" "J3"
-			(at 153.67 142.24 0)
+			(at 153.67 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5826,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at 153.67 144.78 0)
+			(at 153.67 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5834,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
-			(at 154.94 152.146 0)
+			(at 154.94 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 152.146 0)
+			(at 154.94 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5852,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 153.67 151.13 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6585,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 166.37 153.67 0)
+		(at 168.91 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6486,7 +6594,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce87d29c-1422-48ae-9649-5227dec50c2b")
 		(property "Reference" "BT1"
-			(at 170.18 150.5584 0)
+			(at 172.72 148.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6603,7 @@
 			)
 		)
 		(property "Value" "9V"
-			(at 170.18 153.0984 0)
+			(at 172.72 150.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,8 +6611,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Eagle_12BH611-GR"
-			(at 166.37 152.146 90)
+		(property "Footprint" "1_Custom:9V"
+			(at 168.91 149.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 152.146 90)
+			(at 168.91 149.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6630,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 166.37 153.67 0)
+			(at 168.91 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,6 +7063,72 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
+		(at 179.07 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e337fd2a-d73e-4d16-a2f0-59c9767a61c9")
+		(property "Reference" "J11"
+			(at 180.3401 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+9V"
+			(at 177.8001 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 179.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 179.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ad41665-ce53-44cc-9bd1-18fb1cf16a83")
+		)
+		(instances
+			(project "Astro Boost"
+				(path "/2ebdd105-6fc9-46b1-a9a7-54bfc637d7ef"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
 		(at 195.58 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7064,7 +7238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "863-BD140G"
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
 			(at 143.51 100.33 0)
 			(effects
 				(font
