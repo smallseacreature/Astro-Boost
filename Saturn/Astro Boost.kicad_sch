@@ -3935,6 +3935,46 @@
 		)
 		(uuid "ffb7b84f-aaf0-4aa7-a165-fa26b3fe909e")
 	)
+	(text "TO DO"
+		(exclude_from_sim no)
+		(at 223.774 57.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1712c4a6-f081-4f25-bc27-8f6d605db8b2")
+	)
+	(text "double check all components, link datasheets and part numbers"
+		(exclude_from_sim no)
+		(at 224.79 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "233f5411-c6d1-4074-bc97-a310e0576125")
+	)
+	(text "Change log"
+		(exclude_from_sim no)
+		(at 249.936 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26800c37-d485-41ba-be0a-d550e8b150a1")
+	)
+	(text "replaced battery mount with clip"
+		(exclude_from_sim no)
+		(at 249.428 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5301de8d-c760-4c72-9cc6-44fbd8c4d91d")
+	)
 	(text "1. Connect J4 to Pin 2\n2. Connect j5 to Pin 3\n3. Connect j6 to Pin 8\n4. Connect J7 to Pin 1\n4. Connect J8 to pin 9\n5. Connect J9 to pin 5\n6. Connect J10 to pin 6"
 		(exclude_from_sim no)
 		(at 248.666 30.226 0)
@@ -3944,6 +3984,36 @@
 			)
 		)
 		(uuid "901ffc05-05b3-444d-a51f-694c9a69302d")
+	)
+	(text "Add pos/neg for electrolytic caps and d1/d2\nuse different filter caps, these are huge\nflip c7 so it matches\nwiden r5,r4, r2\nu1 footprint too wide\nr3 holes too small\nQ1 leads too close together\nmove power jack to other side"
+		(exclude_from_sim no)
+		(at 223.266 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c6665ca-ff27-4615-8692-b766a6d6118a")
+	)
+	(text "Add a logo and text and stuff"
+		(exclude_from_sim no)
+		(at 218.694 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac996bf1-b86b-472c-88c7-67cbc121cbdb")
+	)
+	(text "Rotated capacitors to match polarity"
+		(exclude_from_sim no)
+		(at 249.428 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca3b10bd-5aa0-452f-be1a-2459d61fa625")
 	)
 	(global_label "+9V"
 		(shape input)

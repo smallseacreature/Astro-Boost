@@ -3873,6 +3873,16 @@
 		)
 		(uuid "ffb7b84f-aaf0-4aa7-a165-fa26b3fe909e")
 	)
+	(text "Add a logo and text and stuff"
+		(exclude_from_sim no)
+		(at 239.776 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b252ea6-651d-47ce-aebc-7967310ac37f")
+	)
 	(text "Add pos/neg for electrolytic caps and d1/d2\nuse different filter caps, these are huge\nflip c7 so it matches\nwiden r5,r4, r2\nu1 footprint too wide\nr3 holes too small\nQ1 leads too close together\nmove power jack to other side"
 		(exclude_from_sim no)
 		(at 236.982 71.374 0)
