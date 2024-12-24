@@ -3965,9 +3965,9 @@
 		)
 		(uuid "26800c37-d485-41ba-be0a-d550e8b150a1")
 	)
-	(text "Widened r4, r5 and r2"
+	(text "Widened r4, r5 and r2\nmade U1 more Narrow\nUpdated r3 from .8mm hole size to 1mm hole size"
 		(exclude_from_sim no)
-		(at 249.936 121.412 0)
+		(at 248.666 124.968 0)
 		(effects
 			(font
 				(size 1.27 1.27)
