@@ -98,314 +98,6 @@
 	(net 16 "Processed to SW")
 	(net 17 "Power from 9V")
 	(net 18 "Net-(J7-Pin_1)")
-	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(layer "F.Cu")
-		(uuid "2e416b77-fe00-4ec6-921d-10ca54870d3a")
-		(at 142 103.75)
-		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
-		(tags "connector wire 0.25sqmm")
-		(property "Reference" "J6"
-			(at 0 -2.2 0)
-			(layer "F.SilkS")
-			(uuid "3761f15d-6789-49a7-a400-8346c74bb346")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Processed to SW"
-			(at 0 2.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d8df36da-e10c-4141-849a-d12f35818590")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e7008e7-f1b7-4a19-9842-ff93f8b13424")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "edf8a795-8571-4329-bcd8-dee93da6191e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14f9a75a-1323-4516-830f-7db60b4029cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/b5edf710-625e-4cf3-9b48-0c40f0932516")
-		(sheetname "Root")
-		(sheetfile "Astro Boost.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_line
-			(start -1.75 -1.5)
-			(end -1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "78dded7f-1ff1-43f3-b7c0-40e9b0b1ae17")
-		)
-		(fp_line
-			(start -1.75 1.5)
-			(end 1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1f8ea11e-4c17-4bfe-92bb-9aaa4c43ad29")
-		)
-		(fp_line
-			(start 1.75 -1.5)
-			(end -1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "29a251dd-724a-4dce-af9d-81668759c59c")
-		)
-		(fp_line
-			(start 1.75 1.5)
-			(end 1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0ba277e3-36e2-4c9d-b514-30cfae6bdfea")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "f42cbe8a-cdb0-4489-ae3d-9b48b49f54a0")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "2b437d8a-844f-47b9-b3dd-97e5eb8e0696")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 2 2)
-			(drill 0.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.125)
-			(net 16 "Processed to SW")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "4a966565-6720-4f0c-8e2b-15d75311c0c7")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(layer "F.Cu")
-		(uuid "2e96691d-c3c3-47a7-8c34-8297ce542d3d")
-		(at 137.5 103.75)
-		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
-		(tags "connector wire 0.25sqmm")
-		(property "Reference" "J5"
-			(at 0 -3.5 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ff31eec8-0a02-4e76-8fd4-020513bc791a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Audio In"
-			(at 0 2.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ca6ecab-9c55-4bc8-836c-69e40e872ad3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f7151fd-234a-4a24-9c14-099a796b7655")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "936db5bc-1dfb-4944-9313-a5aeb1d5afd5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "022ef0ec-323e-412b-999d-b74b83b73554")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/064be992-1d3d-4db9-a41f-0e1cd6deeb88")
-		(sheetname "Root")
-		(sheetfile "Astro Boost.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_line
-			(start -1.75 -1.5)
-			(end -1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a97c6508-4653-472b-8453-592a01347a0b")
-		)
-		(fp_line
-			(start -1.75 1.5)
-			(end 1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4ff64c71-0ab0-4c47-a07c-5810f5f7f7a5")
-		)
-		(fp_line
-			(start 1.75 -1.5)
-			(end -1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1ba1b1a0-1168-468d-abb5-8d9456d4e6aa")
-		)
-		(fp_line
-			(start 1.75 1.5)
-			(end 1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8cb1659e-7df1-4c74-abbb-20efd9e8e388")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "1ae76439-bee0-4990-b817-3bb48895671d")
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 2 2)
-			(drill 0.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.125)
-			(net 4 "Audio In")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "e1d82403-ef1c-4bd0-a91b-6d88b05c0b9a")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 		(layer "F.Cu")
 		(uuid "39da381a-19e5-43fe-9542-75eca47e6273")
@@ -814,7 +506,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "52c4f514-6226-449c-b17c-4471262b8cec")
-		(at 148.975 58)
+		(at 148.975 53.75)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D1"
@@ -1055,487 +747,10 @@
 			)
 		)
 	)
-	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(layer "F.Cu")
-		(uuid "736838a9-c873-4817-b0d6-38015fe7e983")
-		(at 146 103.625)
-		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
-		(tags "connector wire 0.25sqmm")
-		(property "Reference" "J7"
-			(at 0 -2.25 0)
-			(layer "F.SilkS")
-			(uuid "87621464-05ad-4119-85a7-4f33655298c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Bypass"
-			(at 0 2.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f300c910-55c4-4d4a-8ebf-2c8869cde126")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6be82310-5a71-4a7f-8396-afcc5d00f6ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8963c563-c7a9-49d7-bff0-b3f118ac88c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbfc27f1-f4df-485b-afa6-4adb13ee47b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/4a7608d1-d9f0-48c4-b83a-db1bfe2c3b1f")
-		(sheetname "Root")
-		(sheetfile "Astro Boost.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_line
-			(start -1.75 -1.5)
-			(end -1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4a5d66b9-2f50-4ab0-a2d1-b0d2b672457e")
-		)
-		(fp_line
-			(start -1.75 1.5)
-			(end 1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f074fcae-d494-4550-be24-baf531d591d8")
-		)
-		(fp_line
-			(start 1.75 -1.5)
-			(end -1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "61c18e4f-5ead-4411-a605-369a56ce79f4")
-		)
-		(fp_line
-			(start 1.75 1.5)
-			(end 1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "01c97393-5a9f-4a8d-aa76-0963c68a7829")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "6af8caaf-7905-40ea-97bf-521e68bbbbc9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "7bb1ea63-4139-47e6-ae37-4a8db1029361")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 2 2)
-			(drill 0.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.125)
-			(net 18 "Net-(J7-Pin_1)")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "77a3bb1e-b72d-4b56-a985-7fda9b51b231")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(layer "F.Cu")
-		(uuid "7cdeecb3-3676-4c2b-83f6-f23b923084c7")
-		(at 150.25 103.75)
-		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
-		(tags "connector wire 0.25sqmm")
-		(property "Reference" "J8"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "75f9b38c-5681-4a8c-bb63-067c1d5f1de1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Processed Out"
-			(at 0 2.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b964dfd-76a8-4823-980f-2f7d7939b7f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3dc4f29f-996c-4347-8c72-aa9cabc849fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7975065d-592e-4d5b-8edf-bc4fdd31d5c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "077f3dca-d5c9-4928-9657-eb54c9b5316d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/e72c4e61-d78b-402b-80cf-dfc4dea0f22d")
-		(sheetname "Root")
-		(sheetfile "Astro Boost.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_line
-			(start -1.75 -1.5)
-			(end -1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cda70e9c-9aa8-4c8e-aea7-1b9563efdd29")
-		)
-		(fp_line
-			(start -1.75 1.5)
-			(end 1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "638f2ac0-292d-4caf-8ce3-85feb11040e4")
-		)
-		(fp_line
-			(start 1.75 -1.5)
-			(end -1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "dd37cf8e-6c62-42ce-83cc-79806a1f7fd1")
-		)
-		(fp_line
-			(start 1.75 1.5)
-			(end 1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5fe59a51-2aac-4807-b0d3-25a32fe5cf38")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "0c7b5cda-41bb-4a11-aad9-147208d4e30e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "6609c2c8-82b7-4cc5-8f47-fdeacdc00cc6")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 2 2)
-			(drill 0.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.125)
-			(net 18 "Net-(J7-Pin_1)")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "6a6cd127-c596-48ad-a43d-aed6d185eca4")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(layer "F.Cu")
-		(uuid "a5cd19fb-25be-44aa-9ad7-ab43d0df99dc")
-		(at 154.75 103.75)
-		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
-		(tags "connector wire 0.25sqmm")
-		(property "Reference" "J9"
-			(at 0 -2.2 0)
-			(layer "F.SilkS")
-			(uuid "71c29910-46d4-4710-9c4d-2fb3c12d6f26")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Power from 9V to SW"
-			(at 0 2.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e98c19a-b523-40af-b915-274ebe710f38")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d09562c-b78b-4cc6-8ce6-c53ec2745b29")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "952290c4-4e77-4065-b7e8-97d3c11dd3fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73a657ec-74ed-476d-a3bc-caa2d562d31c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/34edf7bc-7a09-48fa-bd74-fbef63c3a77e")
-		(sheetname "Root")
-		(sheetfile "Astro Boost.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_line
-			(start -1.75 -1.5)
-			(end -1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bb4ca42d-fe47-4d2f-90fa-fb5a1d1d19f3")
-		)
-		(fp_line
-			(start -1.75 1.5)
-			(end 1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fd8efeb0-fecc-43ed-9629-35989162f096")
-		)
-		(fp_line
-			(start 1.75 -1.5)
-			(end -1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "35d44283-1a83-44ba-be9a-67c84d578ced")
-		)
-		(fp_line
-			(start 1.75 1.5)
-			(end 1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ed15dc80-d19f-4ea6-8676-b52cecd135f4")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "d3176225-ba7c-426b-810b-cb920bf69852")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "d6c4a8dd-8970-42fd-b4b6-df4b17c1272c")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 2 2)
-			(drill 0.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.125)
-			(net 17 "Power from 9V")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "a3ac076c-5355-4643-9274-d3c5928326a1")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 		(layer "F.Cu")
 		(uuid "a76e42fd-6da8-47f2-b66e-f2cca82509e8")
-		(at 134.15 35.7 -90)
+		(at 133.5 35.7 -90)
 		(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
 		(tags "potentiometer vertical 9mm single")
 		(property "Reference" "RV1"
@@ -1848,646 +1063,10 @@
 			)
 		)
 	)
-	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(layer "F.Cu")
-		(uuid "a9b2cf9a-edac-4a3f-b961-db10d418eed1")
-		(at 133 103.75)
-		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
-		(tags "connector wire 0.25sqmm")
-		(property "Reference" "J4"
-			(at 0 -2.75 0)
-			(layer "F.SilkS")
-			(uuid "2db32a71-dfd6-467e-9778-09b8b15737f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Signal In"
-			(at 0 2.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff3bedac-a255-4549-accf-0857c509a7da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3bb0a2e9-38c9-48b3-829b-21098318ce36")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc8e5903-7549-4139-91ea-aeb9ee47a15e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "001af2f0-2de8-43a8-b1be-d37831d91f7e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/e00e5a0b-8553-4dd5-b593-512f2f94dd36")
-		(sheetname "Root")
-		(sheetfile "Astro Boost.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_line
-			(start -1.75 -1.5)
-			(end -1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f718ab4f-8edd-4261-b4d3-611c160c2bff")
-		)
-		(fp_line
-			(start -1.75 1.5)
-			(end 1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "efbbf0b4-963c-4419-b303-20eaaf56a436")
-		)
-		(fp_line
-			(start 1.75 -1.5)
-			(end -1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f630bec3-ee49-48ab-91e1-6971b03e737f")
-		)
-		(fp_line
-			(start 1.75 1.5)
-			(end 1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6db8a670-8cfa-45e0-b4cd-a476924403b9")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "6fc5e77e-e21f-4479-b670-48a8914fc3a4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "740c067a-03d8-4b96-9cc0-b33889d83cb3")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 2 2)
-			(drill 0.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.125)
-			(net 15 "Net-(J4-Pin_1)")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "e1c9e140-febf-46a4-bdf0-388f591a45d3")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(layer "F.Cu")
-		(uuid "d0d157ec-e2bd-42eb-a6e2-bfecfa2cacba")
-		(at 159.5 103.75)
-		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
-		(tags "connector wire 0.25sqmm")
-		(property "Reference" "J10"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "0a3550c1-0bab-4110-a730-d214f50ccf6a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Power from SW to PS"
-			(at 0 2.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e2201b0-6ca0-4b02-b393-7ea52e4f7dc2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e798d30c-51be-4355-9fe0-b6b38d33cd87")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3425383d-5fc2-4575-978d-2da1b53e95df")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "56f6d5d3-1750-4b79-9536-c214abb6fb76")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/2ee39440-2017-4c5a-bc89-5f387c4d51cb")
-		(sheetname "Root")
-		(sheetfile "Astro Boost.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_line
-			(start -1.75 -1.5)
-			(end -1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ec5f5bd0-fb28-4f86-a8dd-0be956a09107")
-		)
-		(fp_line
-			(start -1.75 1.5)
-			(end 1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d6303b33-25b6-488b-b8e6-fb8c91d0ea3f")
-		)
-		(fp_line
-			(start 1.75 -1.5)
-			(end -1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bcaf42aa-d05e-4fe3-ae6a-ec16275aff03")
-		)
-		(fp_line
-			(start 1.75 1.5)
-			(end 1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "76728de4-b075-4c3e-9abe-922987ba9aea")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "012a28ad-b592-4af7-92db-62062a50144a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "e5c56b14-f470-41a5-a5f1-fc6689d09ae4")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 2 2)
-			(drill 0.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.125)
-			(net 1 "+9V")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "e39c48b1-34a2-47a8-86cb-eb21afe1af6b")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(layer "F.Cu")
-		(uuid "d1c1ea13-62bf-40f5-8801-21a71cd95386")
-		(at 164 104)
-		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
-		(tags "connector wire 0.25sqmm")
-		(property "Reference" "J11"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "8e2636ab-1243-4f47-92a7-63e031e10db9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "+9V"
-			(at 0 2.75 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "369e9190-84d0-4b79-af02-c81620d43371")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "676b8b80-5dbe-4f80-9493-831642a91643")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "38b5b856-ac5f-46dc-9237-c57c13de6150")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bdc9c1c8-dc82-4626-be49-77961898eec4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/e337fd2a-d73e-4d16-a2f0-59c9767a61c9")
-		(sheetname "Root")
-		(sheetfile "Astro Boost.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_line
-			(start -1.75 -1.5)
-			(end -1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "aedacef8-eb57-412a-a932-e566d0261362")
-		)
-		(fp_line
-			(start -1.75 1.5)
-			(end 1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "75186504-1874-4744-9c9a-1e9b2937454f")
-		)
-		(fp_line
-			(start 1.75 -1.5)
-			(end -1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c0569010-d842-4d27-9346-fafaf81602bf")
-		)
-		(fp_line
-			(start 1.75 1.5)
-			(end 1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "70e1ce07-8629-4946-8e7b-d20dac14b82e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "37892450-cbc0-475d-8b0d-bf0f5c6f6340")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "f2d520ec-e914-4a68-9ad8-2744184b126f")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 2 2)
-			(drill 0.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.125)
-			(net 17 "Power from 9V")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "3ae2409a-da80-4af2-9193-d6bc49286719")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(layer "F.Cu")
-		(uuid "dd0323b2-b161-4588-b303-36ee3b512ad1")
-		(at 168.5 104)
-		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
-		(tags "connector wire 0.25sqmm")
-		(property "Reference" "J12"
-			(at 0 -2.2 0)
-			(layer "F.SilkS")
-			(uuid "c6cee2d8-7554-4323-b174-e274a97a02ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "-9V"
-			(at 0 2.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a92e9bec-e1a4-414b-8f0c-d3b989e99eb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50ef5fb9-e36d-4244-b505-5b4431264bab")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45aa5d3a-8443-41dc-8782-925d5b958077")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44f673cd-9599-400f-a438-d06a525f0556")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/285972d0-4a93-4f89-812d-14a90bd2024c")
-		(sheetname "Root")
-		(sheetfile "Astro Boost.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_line
-			(start -1.75 -1.5)
-			(end -1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0ca5691c-edcf-4d76-9179-bc243cb6751b")
-		)
-		(fp_line
-			(start -1.75 1.5)
-			(end 1.75 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e5b6c1d3-1f5e-41a9-8309-f1aaae4fc127")
-		)
-		(fp_line
-			(start 1.75 -1.5)
-			(end -1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7c812ea2-9b3c-4839-9c94-5b115a4af007")
-		)
-		(fp_line
-			(start 1.75 1.5)
-			(end 1.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c344d787-dfa5-48fc-b12f-8a700766142b")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "380c3ad4-306a-4c1a-ab4d-9ef70fb93856")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "e50d0d59-59cf-4bb4-990f-47c203909e33")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 2 2)
-			(drill 0.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.125)
-			(net 2 "0")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "8a5cda84-f5f7-4a8f-b3b2-403e124b3922")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 		(layer "F.Cu")
 		(uuid "e2ad2f37-55e2-4f01-8df0-dede9026f60b")
-		(at 171.3 35.7 -90)
+		(at 172.5 35.7 -90)
 		(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
 		(tags "potentiometer vertical 9mm single")
 		(property "Reference" "RV2"
@@ -2803,7 +1382,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "B.Cu")
 		(uuid "1a709b1a-81d8-4f2c-a659-f62181baadea")
-		(at 143.25 68.5 180)
+		(at 143.25 68.75 180)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C7"
@@ -3439,6 +2018,325 @@
 			)
 		)
 	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "B.Cu")
+		(uuid "2e416b77-fe00-4ec6-921d-10ca54870d3a")
+		(at 159.5 103.75 180)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J6"
+			(at 0 2.2 0)
+			(layer "B.SilkS")
+			(uuid "3761f15d-6789-49a7-a400-8346c74bb346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Processed to SW"
+			(at 0 -2.2 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d8df36da-e10c-4141-849a-d12f35818590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e7008e7-f1b7-4a19-9842-ff93f8b13424")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "edf8a795-8571-4329-bcd8-dee93da6191e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "14f9a75a-1323-4516-830f-7db60b4029cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/b5edf710-625e-4cf3-9b48-0c40f0932516")
+		(sheetname "Root")
+		(sheetfile "Astro Boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "0ba277e3-36e2-4c9d-b514-30cfae6bdfea")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1f8ea11e-4c17-4bfe-92bb-9aaa4c43ad29")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "29a251dd-724a-4dce-af9d-81668759c59c")
+		)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "78dded7f-1ff1-43f3-b7c0-40e9b0b1ae17")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "f42cbe8a-cdb0-4489-ae3d-9b48b49f54a0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "2b437d8a-844f-47b9-b3dd-97e5eb8e0696")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 16 "Processed to SW")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "4a966565-6720-4f0c-8e2b-15d75311c0c7")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "B.Cu")
+		(uuid "2e96691d-c3c3-47a7-8c34-8297ce542d3d")
+		(at 164 103.75 180)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J5"
+			(at 0 3.5 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ff31eec8-0a02-4e76-8fd4-020513bc791a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Audio In"
+			(at 0 -2.2 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ca6ecab-9c55-4bc8-836c-69e40e872ad3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3f7151fd-234a-4a24-9c14-099a796b7655")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "936db5bc-1dfb-4944-9313-a5aeb1d5afd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "022ef0ec-323e-412b-999d-b74b83b73554")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/064be992-1d3d-4db9-a41f-0e1cd6deeb88")
+		(sheetname "Root")
+		(sheetfile "Astro Boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8cb1659e-7df1-4c74-abbb-20efd9e8e388")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "4ff64c71-0ab0-4c47-a07c-5810f5f7f7a5")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1ba1b1a0-1168-468d-abb5-8d9456d4e6aa")
+		)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a97c6508-4653-472b-8453-592a01347a0b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "1ae76439-bee0-4990-b817-3bb48895671d")
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 4 "Audio In")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "e1d82403-ef1c-4bd0-a91b-6d88b05c0b9a")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "B.Cu")
 		(uuid "332a96d8-1816-4a50-8ebc-b5429da680a0")
@@ -3782,11 +2680,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "3b43d2cd-2978-43d1-90c2-02837c3a2078")
-		(at 172.25 56 180)
+		(at 156.5 49.1 90)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R1"
-			(at 5.972 -2.75 0)
+			(at 5.972 -2.75 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "63cbe8e7-8e69-41ab-952d-3b969f2a3b0e")
@@ -3799,7 +2697,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 6.35 -2.72 0)
+			(at 6.35 -2.72 90)
 			(layer "B.Fab")
 			(uuid "bba66b6e-c152-4c1f-8c6f-8f8148d661a7")
 			(effects
@@ -3811,7 +2709,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3825,7 +2723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3839,7 +2737,7 @@
 			)
 		)
 		(property "Description" "6-2176611-5"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3858,26 +2756,6 @@
 		(sheetfile "Astro Boost.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 10.97 1.72)
-			(end 10.97 -1.72)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8a13d810-2c7f-4e47-9084-08971ff0e53a")
-		)
-		(fp_line
-			(start 10.97 0)
-			(end 11.66 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3247d2fc-18e3-42c7-b685-7ab5b80c8dc6")
-		)
-		(fp_line
 			(start 10.97 -1.72)
 			(end 1.73 -1.72)
 			(stroke
@@ -3886,26 +2764,6 @@
 			)
 			(layer "B.SilkS")
 			(uuid "e3c30e8e-7ed5-455f-86b7-bfda1fa85f38")
-		)
-		(fp_line
-			(start 1.73 1.72)
-			(end 10.97 1.72)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a6078468-4bd1-44e0-b586-f7fa25eef569")
-		)
-		(fp_line
-			(start 1.73 0)
-			(end 1.04 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7548e23e-f03a-445b-ae1e-01fd7ec8ac45")
 		)
 		(fp_line
 			(start 1.73 -1.72)
@@ -3918,14 +2776,44 @@
 			(uuid "f73f6d54-eb46-41c6-abe3-d25f7a420021")
 		)
 		(fp_line
-			(start 13.75 1.85)
-			(end 13.75 -1.85)
+			(start 10.97 0)
+			(end 11.66 0)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "1ba4d71d-3e56-45ea-a650-0a329c4e15ab")
+			(layer "B.SilkS")
+			(uuid "3247d2fc-18e3-42c7-b685-7ab5b80c8dc6")
+		)
+		(fp_line
+			(start 1.73 0)
+			(end 1.04 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "7548e23e-f03a-445b-ae1e-01fd7ec8ac45")
+		)
+		(fp_line
+			(start 10.97 1.72)
+			(end 10.97 -1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8a13d810-2c7f-4e47-9084-08971ff0e53a")
+		)
+		(fp_line
+			(start 1.73 1.72)
+			(end 10.97 1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "a6078468-4bd1-44e0-b586-f7fa25eef569")
 		)
 		(fp_line
 			(start 13.75 -1.85)
@@ -3938,16 +2826,6 @@
 			(uuid "59c35916-0e91-4dce-a8b8-17351db0ea97")
 		)
 		(fp_line
-			(start -1.05 1.85)
-			(end 13.75 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "baba34a7-d162-417b-b300-81cd7f0b21bf")
-		)
-		(fp_line
 			(start -1.05 -1.85)
 			(end -1.05 1.85)
 			(stroke
@@ -3958,24 +2836,24 @@
 			(uuid "580bfa47-0e79-4bac-8e86-7761f1d1efb3")
 		)
 		(fp_line
-			(start 10.85 1.6)
-			(end 10.85 -1.6)
+			(start 13.75 1.85)
+			(end 13.75 -1.85)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "fd986b62-9329-429e-8888-9f203aac11e3")
+			(layer "B.CrtYd")
+			(uuid "1ba4d71d-3e56-45ea-a650-0a329c4e15ab")
 		)
 		(fp_line
-			(start 10.85 0)
-			(end 12.7 0)
+			(start -1.05 1.85)
+			(end 13.75 1.85)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "ef92eecf-7ac0-445c-8a4d-4fee4f9e2a0b")
+			(layer "B.CrtYd")
+			(uuid "baba34a7-d162-417b-b300-81cd7f0b21bf")
 		)
 		(fp_line
 			(start 10.85 -1.6)
@@ -3988,14 +2866,24 @@
 			(uuid "b9a3780d-25d3-43c2-b5fe-6212427129ae")
 		)
 		(fp_line
-			(start 1.85 1.6)
-			(end 10.85 1.6)
+			(start 1.85 -1.6)
+			(end 1.85 1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c0d5cf73-9b57-4251-8de8-c407e9e3341b")
+			(uuid "3bedc3cf-032a-4d43-b9e2-23add39133f6")
+		)
+		(fp_line
+			(start 10.85 0)
+			(end 12.7 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ef92eecf-7ac0-445c-8a4d-4fee4f9e2a0b")
 		)
 		(fp_line
 			(start 1.85 0)
@@ -4008,17 +2896,27 @@
 			(uuid "ee7d164f-09ad-48ec-bf7d-08f566024dab")
 		)
 		(fp_line
-			(start 1.85 -1.6)
-			(end 1.85 1.6)
+			(start 10.85 1.6)
+			(end 10.85 -1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3bedc3cf-032a-4d43-b9e2-23add39133f6")
+			(uuid "fd986b62-9329-429e-8888-9f203aac11e3")
+		)
+		(fp_line
+			(start 1.85 1.6)
+			(end 10.85 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "c0d5cf73-9b57-4251-8de8-c407e9e3341b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.35 0 0)
+			(at 6.35 0 90)
 			(layer "B.Fab")
 			(uuid "b65389c2-e589-42fd-9071-382b4c729c95")
 			(effects
@@ -4030,7 +2928,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 180)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4040,7 +2938,7 @@
 			(uuid "effddaa2-8e40-4332-bac1-e59fc3ae9727")
 		)
 		(pad "2" thru_hole oval
-			(at 12.7 0 180)
+			(at 12.7 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4666,11 +3564,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "6012a3fe-ed43-4957-b9ff-da5ecf1ac134")
-		(at 146.5 94.83 90)
+		(at 145.17 83.75)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 5.08 2.37 90)
+			(at 5.08 2.37 0)
 			(layer "B.SilkS")
 			(uuid "7eb5c9a2-417d-47da-a54a-1aa7a951d1dd")
 			(effects
@@ -4682,7 +3580,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 5.08 -2.37 90)
+			(at 5.08 -2.37 0)
 			(layer "B.Fab")
 			(uuid "282f9b52-8d91-4f86-aa37-352150826618")
 			(effects
@@ -4694,7 +3592,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4708,7 +3606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4722,7 +3620,7 @@
 			)
 		)
 		(property "Description" "VR25000001004JR500"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4741,16 +3639,6 @@
 		(sheetfile "Astro Boost.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 8.35 -1.37)
-			(end 1.81 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0b24f175-d019-4722-a074-f11dfa3ba75c")
-		)
-		(fp_line
 			(start 1.81 -1.37)
 			(end 1.81 1.37)
 			(stroke
@@ -4759,16 +3647,6 @@
 			)
 			(layer "B.SilkS")
 			(uuid "0ca82286-9bfe-4106-b5fd-6d66ecf2411c")
-		)
-		(fp_line
-			(start 8.35 0)
-			(end 9.12 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e8dd4567-36f9-40a5-8c4a-66aa44fa4572")
 		)
 		(fp_line
 			(start 1.81 0)
@@ -4781,16 +3659,6 @@
 			(uuid "2a34d285-c246-42b4-a922-8d7f9acf296a")
 		)
 		(fp_line
-			(start 8.35 1.37)
-			(end 8.35 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4b1f21f1-4c26-430c-838c-2e1b783b6c7c")
-		)
-		(fp_line
 			(start 1.81 1.37)
 			(end 8.35 1.37)
 			(stroke
@@ -4801,14 +3669,34 @@
 			(uuid "f5d4bbb1-1c43-4c21-b09a-9d1905697261")
 		)
 		(fp_line
-			(start 11.21 -1.5)
-			(end -1.05 -1.5)
+			(start 8.35 -1.37)
+			(end 1.81 -1.37)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "95ff1d6c-76cd-4a01-b35e-d3ad35ac8c67")
+			(layer "B.SilkS")
+			(uuid "0b24f175-d019-4722-a074-f11dfa3ba75c")
+		)
+		(fp_line
+			(start 8.35 0)
+			(end 9.12 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e8dd4567-36f9-40a5-8c4a-66aa44fa4572")
+		)
+		(fp_line
+			(start 8.35 1.37)
+			(end 8.35 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4b1f21f1-4c26-430c-838c-2e1b783b6c7c")
 		)
 		(fp_line
 			(start -1.05 -1.5)
@@ -4821,16 +3709,6 @@
 			(uuid "caa3134b-0744-4966-82e1-41fcf70fa7d3")
 		)
 		(fp_line
-			(start 11.21 1.5)
-			(end 11.21 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "bc282418-f12d-4227-9dd1-a3e8524d096c")
-		)
-		(fp_line
 			(start -1.05 1.5)
 			(end 11.21 1.5)
 			(stroke
@@ -4841,14 +3719,24 @@
 			(uuid "ac28cf85-20b7-416c-b24d-e22ae90ad5a5")
 		)
 		(fp_line
-			(start 8.23 -1.25)
-			(end 1.93 -1.25)
+			(start 11.21 -1.5)
+			(end -1.05 -1.5)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "104be103-61f4-4ade-a54f-70d97f3a31ec")
+			(layer "B.CrtYd")
+			(uuid "95ff1d6c-76cd-4a01-b35e-d3ad35ac8c67")
+		)
+		(fp_line
+			(start 11.21 1.5)
+			(end 11.21 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "bc282418-f12d-4227-9dd1-a3e8524d096c")
 		)
 		(fp_line
 			(start 1.93 -1.25)
@@ -4861,16 +3749,6 @@
 			(uuid "1ea0aa33-25b1-4178-9fd5-ea91f0c00aed")
 		)
 		(fp_line
-			(start 8.23 0)
-			(end 10.16 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "6305c005-9d32-4f0f-beac-03c5b14f207b")
-		)
-		(fp_line
 			(start 1.93 0)
 			(end 0 0)
 			(stroke
@@ -4879,16 +3757,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "2a3df0a3-ac21-4d47-975e-22107cef1068")
-		)
-		(fp_line
-			(start 8.23 1.25)
-			(end 8.23 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "0e5d85ad-1184-49cb-8b34-b870f75ee169")
 		)
 		(fp_line
 			(start 1.93 1.25)
@@ -4900,8 +3768,38 @@
 			(layer "B.Fab")
 			(uuid "7dbdfbcb-ce16-421c-8b65-6d3bf01a2f94")
 		)
+		(fp_line
+			(start 8.23 -1.25)
+			(end 1.93 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "104be103-61f4-4ade-a54f-70d97f3a31ec")
+		)
+		(fp_line
+			(start 8.23 0)
+			(end 10.16 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "6305c005-9d32-4f0f-beac-03c5b14f207b")
+		)
+		(fp_line
+			(start 8.23 1.25)
+			(end 8.23 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0e5d85ad-1184-49cb-8b34-b870f75ee169")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
+			(at 5.08 0 0)
 			(layer "B.Fab")
 			(uuid "629f5b75-9c5c-43f4-ba6e-0cda8684f1a6")
 			(effects
@@ -4913,7 +3811,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 90)
+			(at 0 0)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4923,7 +3821,7 @@
 			(uuid "1207b615-ac68-415f-a535-47b6962da9ea")
 		)
 		(pad "2" thru_hole oval
-			(at 10.16 0 90)
+			(at 10.16 0)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4944,17 +3842,17 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm"
+	(footprint "Capacitor_THT:C_Axial_L12.0mm_D9.5mm_P20.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "72ae94cd-d3c8-4afb-bef1-e0931479791c")
-		(at 143.5 48 90)
-		(descr "C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=9*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
-		(tags "C Disc series Radial pin pitch 10.00mm  diameter 9mm width 5.0mm Capacitor")
+		(at 172.75 78.5 90)
+		(descr "C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=12*9.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
+		(tags "C Axial series Axial Horizontal pin pitch 20mm  length 12mm diameter 9.5mm")
 		(property "Reference" "C4"
-			(at 11 -2 90)
+			(at 17.75 -2.25 -90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "7c568e98-d75e-4c46-a570-04aee74bb4c5")
+			(uuid "47284144-3df6-4b39-bebd-27bc341003bb")
 			(effects
 				(font
 					(size 1 1)
@@ -4964,9 +3862,9 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 5 -3.75 90)
+			(at 10 -5.87 -90)
 			(layer "B.Fab")
-			(uuid "c3b3c835-2a28-40bc-a0f3-fd956818cfb3")
+			(uuid "4d5c949a-72fe-412b-8863-c4c8023d6228")
 			(effects
 				(font
 					(size 1 1)
@@ -4975,12 +3873,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D9.5mm_P20.00mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "47c99ccf-65e1-4e80-b035-344cb29cab8a")
+			(uuid "efff298d-b51a-4509-8c3f-1aaf13c13e38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,12 +3887,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/449/Elytone_23P_Series-3182363.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "46de98e3-0615-46e4-87d5-3a0bc621da83")
+			(uuid "a8581fb9-eec5-4d56-97ae-12bf51fc6ab8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,12 +3901,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "564R30GAS10"
+		(property "Description" "23PS310"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8b8695e9-b8bc-4bfd-b7c8-4db5f4dc7928")
+			(uuid "e81d28b5-fa15-4e78-9bb5-1fe9436ca0ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,149 +3921,169 @@
 		(sheetfile "Astro Boost.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 9.62 -2.62)
-			(end 0.38 -2.62)
+			(start 16.12 -4.87)
+			(end 3.88 -4.87)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d8f86cb7-55c0-4bd7-9600-23b4018196e2")
+			(uuid "7bc528a1-9907-4dee-96ed-7c6a2258e27e")
 		)
 		(fp_line
-			(start 9.62 -2.62)
-			(end 9.62 -1.256)
+			(start 3.88 -4.87)
+			(end 3.88 4.87)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "1f30d7d8-455a-45f1-9177-05a39fee15a8")
+			(uuid "e9709688-3740-4567-9db1-6e350b2c234e")
 		)
 		(fp_line
-			(start 0.38 -2.62)
-			(end 0.38 -1.256)
+			(start 16.12 0)
+			(end 18.96 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "aeb1504e-7929-4360-9d43-ec59da717055")
+			(uuid "fc2baec8-8db6-46bf-b50d-c93bbbcb031c")
 		)
 		(fp_line
-			(start 9.62 1.256)
-			(end 9.62 2.62)
+			(start 3.88 0)
+			(end 1.04 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ce7fc219-63ba-40b3-afa8-34b90306e7cc")
+			(uuid "d24846ed-7e3b-40c1-9601-db90228e4026")
 		)
 		(fp_line
-			(start 0.38 1.256)
-			(end 0.38 2.62)
+			(start 16.12 4.87)
+			(end 16.12 -4.87)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "946c40d7-9fd6-4af9-ad82-ef65edf59716")
+			(uuid "06fae408-e6c3-4b81-be8b-1e1c84e2e08e")
 		)
 		(fp_line
-			(start 9.62 2.62)
-			(end 0.38 2.62)
+			(start 3.88 4.87)
+			(end 16.12 4.87)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "6efe563b-7474-431a-bf1e-1cf21f9c3a59")
+			(uuid "2c088299-78c0-4998-b812-591531e9d193")
 		)
 		(fp_line
-			(start 11.25 -2.75)
-			(end -1.25 -2.75)
+			(start 21.05 -5)
+			(end -1.05 -5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "3606cec2-7b1c-4bf1-a538-409dbc795cd7")
+			(uuid "040f9ef1-3961-4be2-91e8-e04f1f8461ea")
 		)
 		(fp_line
-			(start -1.25 -2.75)
-			(end -1.25 2.75)
+			(start -1.05 -5)
+			(end -1.05 5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e2e4b12a-8c63-4b25-80f2-ff35112892cd")
+			(uuid "17b42ab5-c07d-4f2d-b280-27644deecc3c")
 		)
 		(fp_line
-			(start 11.25 2.75)
-			(end 11.25 -2.75)
+			(start 21.05 5)
+			(end 21.05 -5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7d3d6a46-0b79-4cce-86c1-fa17c762bc6f")
+			(uuid "042d0136-6163-4a63-9a99-347c710c1475")
 		)
 		(fp_line
-			(start -1.25 2.75)
-			(end 11.25 2.75)
+			(start -1.05 5)
+			(end 21.05 5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "084345b8-2e22-4af0-a9b1-d66a93f84db3")
+			(uuid "36ed7c76-ede6-42a0-8bc1-64bf7e6b56c2")
 		)
 		(fp_line
-			(start 9.5 -2.5)
-			(end 0.5 -2.5)
+			(start 16 -4.75)
+			(end 4 -4.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "68bfedc0-2fb9-4118-b4cb-cb524e3c3f2e")
+			(uuid "aca5bc4e-8b9e-46d8-b19f-65521150536f")
 		)
 		(fp_line
-			(start 0.5 -2.5)
-			(end 0.5 2.5)
+			(start 4 -4.75)
+			(end 4 4.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3586164d-bcfc-48f3-b1f9-5444f2c00fef")
+			(uuid "fea46de8-d136-4192-b719-137e05cbbeff")
 		)
 		(fp_line
-			(start 9.5 2.5)
-			(end 9.5 -2.5)
+			(start 16 0)
+			(end 20 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b2379f12-d813-4ac2-867b-222628622b83")
+			(uuid "db002223-1a44-4ac0-aeaa-5b1d8c687ec3")
 		)
 		(fp_line
-			(start 0.5 2.5)
-			(end 9.5 2.5)
+			(start 4 0)
+			(end 0 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c39b2787-7e51-41ab-920a-49e691236c8b")
+			(uuid "9da7fead-ca79-4c7d-b006-1dd42e585f8e")
+		)
+		(fp_line
+			(start 16 4.75)
+			(end 16 -4.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d3a4485a-5def-46dd-8569-5fc68672191f")
+		)
+		(fp_line
+			(start 4 4.75)
+			(end 16 4.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "2607f76d-58a1-4acb-a781-4876b5d75db7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.5 0 90)
+			(at 10 0 -90)
 			(layer "B.Fab")
-			(uuid "2f469cae-164d-418c-9fe1-9e2310247245")
+			(uuid "831a9095-c291-48ef-a309-23e4e58d9609")
 			(effects
 				(font
 					(size 1 1)
@@ -5176,25 +4094,25 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 2 2)
-			(drill 1)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "Net-(Q1-B)")
 			(pintype "passive")
-			(uuid "1f654c14-9884-4723-8c0d-e9ce4db5bd9d")
+			(uuid "8f97c3c6-ee8b-49c0-bd7c-af1f9dcbff93")
 		)
-		(pad "2" thru_hole circle
-			(at 10 0 90)
-			(size 2 2)
-			(drill 1)
+		(pad "2" thru_hole oval
+			(at 20 0 90)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 5 "Net-(SW1-C)")
 			(pintype "passive")
-			(uuid "0f02585c-80c2-4be8-a43b-f8936a187a5d")
+			(uuid "7b1a5f1d-1457-4fbd-ad2b-373a9201cd25")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D9.0mm_W5.0mm_P10.00mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L12.0mm_D9.5mm_P20.00mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5206,17 +4124,16 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm"
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
 		(layer "B.Cu")
-		(uuid "798e9be1-0b94-44c5-9e1b-8416190d4876")
-		(at 152.75 84.5 -90)
-		(descr "C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=9*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
-		(tags "C Disc series Radial pin pitch 10.00mm  diameter 9mm width 5.0mm Capacitor")
-		(property "Reference" "C2"
-			(at 5 -3.5 90)
+		(uuid "736838a9-c873-4817-b0d6-38015fe7e983")
+		(at 155.5 103.625 180)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J7"
+			(at 0 2.25 0)
 			(layer "B.SilkS")
-			(hide yes)
-			(uuid "d5c835d8-9d6a-47c0-a58b-5f418893d96f")
+			(uuid "87621464-05ad-4119-85a7-4f33655298c6")
 			(effects
 				(font
 					(size 1 1)
@@ -5225,10 +4142,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10n"
-			(at 5 -3.75 90)
+		(property "Value" "Bypass"
+			(at 0 -2.2 0)
 			(layer "B.Fab")
-			(uuid "6420de36-ca4b-47c6-9cfa-7d7b993b5ea6")
+			(hide yes)
+			(uuid "f300c910-55c4-4d4a-8ebf-2c8869cde126")
 			(effects
 				(font
 					(size 1 1)
@@ -5237,12 +4155,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm"
-			(at 0 0 90)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ace8bedc-1768-4c09-a8ef-b9a489a586db")
+			(uuid "6be82310-5a71-4a7f-8396-afcc5d00f6ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,11 +4170,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "edcdf72c-eff0-42e6-aa65-e3d98cadaafa")
+			(uuid "8963c563-c7a9-49d7-bff0-b3f118ac88c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,12 +4183,177 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "564R30GAS10"
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dbfc27f1-f4df-485b-afa6-4adb13ee47b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/4a7608d1-d9f0-48c4-b83a-db1bfe2c3b1f")
+		(sheetname "Root")
+		(sheetfile "Astro Boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "01c97393-5a9f-4a8d-aa76-0963c68a7829")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f074fcae-d494-4550-be24-baf531d591d8")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "61c18e4f-5ead-4411-a605-369a56ce79f4")
+		)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "4a5d66b9-2f50-4ab0-a2d1-b0d2b672457e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "6af8caaf-7905-40ea-97bf-521e68bbbbc9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "7bb1ea63-4139-47e6-ae37-4a8db1029361")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 18 "Net-(J7-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "77a3bb1e-b72d-4b56-a985-7fda9b51b231")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_THT:C_Axial_L12.0mm_D9.5mm_P20.00mm_Horizontal"
+		(layer "B.Cu")
+		(uuid "798e9be1-0b94-44c5-9e1b-8416190d4876")
+		(at 129 58.5 -90)
+		(descr "C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=12*9.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
+		(tags "C Axial series Axial Horizontal pin pitch 20mm  length 12mm diameter 9.5mm")
+		(property "Reference" "C2"
+			(at 2.5 1.75 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "14d0e07f-1113-429a-ac64-365aad112699")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "10n"
+			(at 10 -5.87 90)
+			(layer "B.Fab")
+			(uuid "f82aad98-719a-4dbe-85ad-8e29aeb91064")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D9.5mm_P20.00mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9e6e5008-85bc-4e44-a9ce-aef81aecc79b")
+			(uuid "120de81e-2756-4336-abb2-8f5451206422")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/449/Elytone_23P_Series-3182363.pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee3b7f0c-47a1-4255-9681-bf3c5ba1f7fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "23PS310"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c996ac1-3e8f-4993-a434-81e991f444bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,149 +4368,169 @@
 		(sheetfile "Astro Boost.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 9.62 2.62)
-			(end 0.38 2.62)
+			(start 3.88 4.87)
+			(end 16.12 4.87)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ed2d0462-9de2-45a3-a74a-6cfc7f1ebd86")
+			(uuid "d1d96fc2-038a-43f6-9224-3cdadf5b42a3")
 		)
 		(fp_line
-			(start 0.38 1.256)
-			(end 0.38 2.62)
+			(start 16.12 4.87)
+			(end 16.12 -4.87)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f649e1a7-47b0-433b-9a20-d37672883c6b")
+			(uuid "13c125c3-8d23-4201-ab86-7c1d5c6f943a")
 		)
 		(fp_line
-			(start 9.62 1.256)
-			(end 9.62 2.62)
+			(start 3.88 0)
+			(end 1.04 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "195f72c0-9f2c-4d40-a8f9-2967c18d6fa7")
+			(uuid "fc7437dd-cc99-4d08-967d-2171cf8c7757")
 		)
 		(fp_line
-			(start 0.38 -2.62)
-			(end 0.38 -1.256)
+			(start 16.12 0)
+			(end 18.96 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "88340a7a-9a37-49b5-96fa-afcb01bf9e49")
+			(uuid "efa78333-42a4-4c55-a84a-c84c6a73e858")
 		)
 		(fp_line
-			(start 9.62 -2.62)
-			(end 9.62 -1.256)
+			(start 3.88 -4.87)
+			(end 3.88 4.87)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "316601af-cff5-4a11-b94f-c617204785b5")
+			(uuid "bbc1206c-6d18-409c-8c06-7cec5ee91ee7")
 		)
 		(fp_line
-			(start 9.62 -2.62)
-			(end 0.38 -2.62)
+			(start 16.12 -4.87)
+			(end 3.88 -4.87)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "328e0e5a-cff5-4c51-9bbb-2555ee6284d4")
+			(uuid "3b1e80ab-79b6-4397-832c-25add7436ed2")
 		)
 		(fp_line
-			(start -1.25 2.75)
-			(end 11.25 2.75)
+			(start -1.05 5)
+			(end 21.05 5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "6b25db1d-f341-4693-8c9e-b50fbd29e57a")
+			(uuid "3f342d03-ae48-4b7e-8135-0500aa8bb5d2")
 		)
 		(fp_line
-			(start 11.25 2.75)
-			(end 11.25 -2.75)
+			(start 21.05 5)
+			(end 21.05 -5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a71c7389-dfed-49c9-bc21-5b80b6679d60")
+			(uuid "50af2cfd-10f5-4bbf-be3b-5fd50ba56d0f")
 		)
 		(fp_line
-			(start -1.25 -2.75)
-			(end -1.25 2.75)
+			(start -1.05 -5)
+			(end -1.05 5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ce086aaf-2dde-414a-a81f-c48a9b35e90c")
+			(uuid "a0a772ca-8991-46dc-a984-e759fdb70186")
 		)
 		(fp_line
-			(start 11.25 -2.75)
-			(end -1.25 -2.75)
+			(start 21.05 -5)
+			(end -1.05 -5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "44117352-4eb9-4eb3-8344-1f23791d0206")
+			(uuid "f1fa1226-b380-4460-87c5-b9712d320d83")
 		)
 		(fp_line
-			(start 0.5 2.5)
-			(end 9.5 2.5)
+			(start 4 4.75)
+			(end 16 4.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "16412be9-7ada-4d58-a221-5ba2c346d0cd")
+			(uuid "30a8396b-d0c9-4b08-83f1-1a7ec66a4e13")
 		)
 		(fp_line
-			(start 9.5 2.5)
-			(end 9.5 -2.5)
+			(start 16 4.75)
+			(end 16 -4.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "0250bc00-be86-47c0-aedb-585192461988")
+			(uuid "f8f288cc-4bc1-42d9-997a-506cca019ddd")
 		)
 		(fp_line
-			(start 0.5 -2.5)
-			(end 0.5 2.5)
+			(start 4 0)
+			(end 0 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "1a0de35f-4271-4d9a-b1a5-2c1db9f26781")
+			(uuid "d7e73edf-b5ea-47f1-946a-1516a1c3255a")
 		)
 		(fp_line
-			(start 9.5 -2.5)
-			(end 0.5 -2.5)
+			(start 16 0)
+			(end 20 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "42abfe25-f15e-4f6c-a0e1-bef23c0cc2d8")
+			(uuid "c385bafe-4508-4e6b-b964-acea320a955d")
+		)
+		(fp_line
+			(start 4 -4.75)
+			(end 4 4.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "56a55fd5-19e1-46a0-8709-e1926582437a")
+		)
+		(fp_line
+			(start 16 -4.75)
+			(end 4 -4.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0ad9f879-bc96-49a1-a694-fc547f16bf9f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5 0 90)
+			(at 10 0 90)
 			(layer "B.Fab")
-			(uuid "d1ef1181-df78-4c8b-b167-aa70c456174f")
+			(uuid "e6f3d5d2-a331-410d-9107-90630bdbeb2c")
 			(effects
 				(font
 					(size 1 1)
@@ -5438,25 +4541,190 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 2 2)
-			(drill 1)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "Processed to SW")
 			(pintype "passive")
-			(uuid "7e41e90d-dec9-4949-b340-cf460fbdd1f3")
+			(uuid "aa29534c-9aa9-454b-a837-564fc9e20de5")
 		)
-		(pad "2" thru_hole circle
-			(at 10 0 270)
-			(size 2 2)
-			(drill 1)
+		(pad "2" thru_hole oval
+			(at 20 0 270)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "Net-(C2-Pad2)")
 			(pintype "passive")
-			(uuid "7908da5e-8417-4f5d-8955-d9009e2b1fc8")
+			(uuid "b98a695e-9184-4d07-b288-125ad4c9188b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D9.0mm_W5.0mm_P10.00mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L12.0mm_D9.5mm_P20.00mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "B.Cu")
+		(uuid "7cdeecb3-3676-4c2b-83f6-f23b923084c7")
+		(at 151.25 103.75 180)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J8"
+			(at 0 2.5 0)
+			(layer "B.SilkS")
+			(uuid "75f9b38c-5681-4a8c-bb63-067c1d5f1de1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Processed Out"
+			(at 0 -2.2 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5b964dfd-76a8-4823-980f-2f7d7939b7f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3dc4f29f-996c-4347-8c72-aa9cabc849fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7975065d-592e-4d5b-8edf-bc4fdd31d5c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "077f3dca-d5c9-4928-9657-eb54c9b5316d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/e72c4e61-d78b-402b-80cf-dfc4dea0f22d")
+		(sheetname "Root")
+		(sheetfile "Astro Boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5fe59a51-2aac-4807-b0d3-25a32fe5cf38")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "638f2ac0-292d-4caf-8ce3-85feb11040e4")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "dd37cf8e-6c62-42ce-83cc-79806a1f7fd1")
+		)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "cda70e9c-9aa8-4c8e-aea7-1b9563efdd29")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "0c7b5cda-41bb-4a11-aad9-147208d4e30e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "6609c2c8-82b7-4cc5-8f47-fdeacdc00cc6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 18 "Net-(J7-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "6a6cd127-c596-48ad-a43d-aed6d185eca4")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5471,11 +4739,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "8b10633e-3d1a-4539-9322-2eb858f252b2")
-		(at 139.83 52.25 180)
+		(at 139.75 48.08 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
-			(at 5.08 2.37 0)
+			(at 12.58 0 90)
 			(layer "B.SilkS")
 			(uuid "4cc25873-0bff-4594-8ab7-b6bdc1e82c57")
 			(effects
@@ -5487,7 +4755,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 5.08 -2.37 0)
+			(at 5.08 -2.37 90)
 			(layer "B.Fab")
 			(uuid "67acd3b3-51f0-4a6d-be8e-8aec80f9be0b")
 			(effects
@@ -5499,7 +4767,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5513,7 +4781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5527,7 +4795,7 @@
 			)
 		)
 		(property "Description" "PR01000101002JA500"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5546,26 +4814,6 @@
 		(sheetfile "Astro Boost.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 8.35 1.37)
-			(end 8.35 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f259ed01-bd42-4b18-91c9-c8b84423798d")
-		)
-		(fp_line
-			(start 8.35 0)
-			(end 9.12 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b0d3a450-5c66-425e-8ca5-d4ba70ab6d60")
-		)
-		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
 			(stroke
@@ -5574,26 +4822,6 @@
 			)
 			(layer "B.SilkS")
 			(uuid "8b6cc2ad-f52f-4989-9a67-4c68e532078c")
-		)
-		(fp_line
-			(start 1.81 1.37)
-			(end 8.35 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d1a15bf7-83dc-489f-aca2-01b1b27b3852")
-		)
-		(fp_line
-			(start 1.81 0)
-			(end 1.04 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9f3750a4-1e19-424a-8777-f1cc43c6487b")
 		)
 		(fp_line
 			(start 1.81 -1.37)
@@ -5606,14 +4834,44 @@
 			(uuid "d7cd8796-307f-4189-9102-4e74cbbce11c")
 		)
 		(fp_line
-			(start 11.21 1.5)
-			(end 11.21 -1.5)
+			(start 8.35 0)
+			(end 9.12 0)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "9df9c107-dd1a-4a63-9509-b5a5034585b5")
+			(layer "B.SilkS")
+			(uuid "b0d3a450-5c66-425e-8ca5-d4ba70ab6d60")
+		)
+		(fp_line
+			(start 1.81 0)
+			(end 1.04 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "9f3750a4-1e19-424a-8777-f1cc43c6487b")
+		)
+		(fp_line
+			(start 8.35 1.37)
+			(end 8.35 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f259ed01-bd42-4b18-91c9-c8b84423798d")
+		)
+		(fp_line
+			(start 1.81 1.37)
+			(end 8.35 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "d1a15bf7-83dc-489f-aca2-01b1b27b3852")
 		)
 		(fp_line
 			(start 11.21 -1.5)
@@ -5626,16 +4884,6 @@
 			(uuid "5b4d662d-d6bb-4209-b9c7-200517f55b8b")
 		)
 		(fp_line
-			(start -1.05 1.5)
-			(end 11.21 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "a4392668-51f7-472e-a901-162ef972f80f")
-		)
-		(fp_line
 			(start -1.05 -1.5)
 			(end -1.05 1.5)
 			(stroke
@@ -5646,24 +4894,24 @@
 			(uuid "dc4663c1-13ac-405e-bb6b-8ce002d72597")
 		)
 		(fp_line
-			(start 8.23 1.25)
-			(end 8.23 -1.25)
+			(start 11.21 1.5)
+			(end 11.21 -1.5)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "8c764123-0832-4d13-9a68-72bd42cf365e")
+			(layer "B.CrtYd")
+			(uuid "9df9c107-dd1a-4a63-9509-b5a5034585b5")
 		)
 		(fp_line
-			(start 8.23 0)
-			(end 10.16 0)
+			(start -1.05 1.5)
+			(end 11.21 1.5)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "045d6bef-e3c6-406a-a3cb-20f4adb01236")
+			(layer "B.CrtYd")
+			(uuid "a4392668-51f7-472e-a901-162ef972f80f")
 		)
 		(fp_line
 			(start 8.23 -1.25)
@@ -5676,14 +4924,24 @@
 			(uuid "ab7b755d-a255-4a7a-ba73-6cb14e5420ec")
 		)
 		(fp_line
-			(start 1.93 1.25)
-			(end 8.23 1.25)
+			(start 1.93 -1.25)
+			(end 1.93 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d834161b-998a-41b9-87b8-8cb29c56988b")
+			(uuid "8ef78319-50d1-46d6-81e6-07cd661febc7")
+		)
+		(fp_line
+			(start 8.23 0)
+			(end 10.16 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "045d6bef-e3c6-406a-a3cb-20f4adb01236")
 		)
 		(fp_line
 			(start 1.93 0)
@@ -5696,17 +4954,27 @@
 			(uuid "078ef1ca-f255-4ac2-ab9d-85be7832418f")
 		)
 		(fp_line
-			(start 1.93 -1.25)
-			(end 1.93 1.25)
+			(start 8.23 1.25)
+			(end 8.23 -1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "8ef78319-50d1-46d6-81e6-07cd661febc7")
+			(uuid "8c764123-0832-4d13-9a68-72bd42cf365e")
+		)
+		(fp_line
+			(start 1.93 1.25)
+			(end 8.23 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d834161b-998a-41b9-87b8-8cb29c56988b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "B.Fab")
 			(uuid "093f2ca3-b3fe-4fab-8300-decaaa1e5ce1")
 			(effects
@@ -5718,7 +4986,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 180)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5728,7 +4996,7 @@
 			(uuid "e165e10b-80a5-4f42-84cc-8c38d567208c")
 		)
 		(pad "2" thru_hole oval
-			(at 10.16 0 180)
+			(at 10.16 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5749,17 +5017,16 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm"
+	(footprint "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "9006de67-71ff-4de2-9f08-2cb007d07df1")
-		(at 145.5 52.75)
-		(descr "C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=9*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
-		(tags "C Disc series Radial pin pitch 10.00mm  diameter 9mm width 5.0mm Capacitor")
+		(at 125 53.75)
+		(descr "C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=12*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
+		(tags "C Axial series Axial Horizontal pin pitch 20mm  length 12mm diameter 6.5mm")
 		(property "Reference" "C5"
-			(at -1 2 0)
+			(at 10.25 -4.25 180)
 			(layer "B.SilkS")
-			(hide yes)
-			(uuid "4446f0d7-505d-48c9-802f-8f0f91fd5534")
+			(uuid "eda31f4b-fe4b-4fd4-aa54-8c4bac913c17")
 			(effects
 				(font
 					(size 1 1)
@@ -5769,9 +5036,9 @@
 			)
 		)
 		(property "Value" "5n"
-			(at 5 -3.75 0)
+			(at 10 -4.37 180)
 			(layer "B.Fab")
-			(uuid "1b98ce1f-eb35-4d30-b823-9176155513e7")
+			(uuid "d0704a80-ed33-481f-b7e4-f8b9a5e010a4")
 			(effects
 				(font
 					(size 1 1)
@@ -5780,12 +5047,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "885bbbd8-8335-49a9-b3ca-1f2426009d66")
+			(uuid "69ad76a9-5186-406a-8bfe-76555b910e2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5066,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "022e08d0-7393-4460-939d-e9c258433f25")
+			(uuid "b3968637-3032-47ae-877b-f9ee9e7a35cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,12 +5075,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "S502M75Z5UR83L0R"
+		(property "Description" "23PS250"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ea29d250-11ab-46da-bc7a-daf716151d4b")
+			(uuid "fb816144-b63e-4988-9f41-f832af9f259b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,149 +5095,169 @@
 		(sheetfile "Astro Boost.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.38 -2.62)
-			(end 0.38 -1.256)
+			(start 3.88 -3.37)
+			(end 3.88 3.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "61088298-2308-4be6-8137-99df9c9817dd")
+			(uuid "0f4598b8-bd29-45da-bc95-b6e3ff343c5e")
 		)
 		(fp_line
-			(start 0.38 1.256)
-			(end 0.38 2.62)
+			(start 3.88 0)
+			(end 1.04 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f0736806-e7d5-4254-9d2b-19448c3331a6")
+			(uuid "b65fba9e-5e62-4f17-a255-a6d8a248a9e5")
 		)
 		(fp_line
-			(start 9.62 -2.62)
-			(end 0.38 -2.62)
+			(start 3.88 3.37)
+			(end 16.12 3.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "7b2b9528-6507-491f-86c6-f5590c207de1")
+			(uuid "a482435a-f61e-4bfa-af6a-be5a710f64bc")
 		)
 		(fp_line
-			(start 9.62 -2.62)
-			(end 9.62 -1.256)
+			(start 16.12 -3.37)
+			(end 3.88 -3.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "5b3026c1-3c76-4794-9ee9-60490f7387b9")
+			(uuid "e097692e-cf4c-4789-ae0f-d9af82cd25e3")
 		)
 		(fp_line
-			(start 9.62 1.256)
-			(end 9.62 2.62)
+			(start 16.12 0)
+			(end 18.96 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "41ee7b12-3f04-4e2c-81e8-eb0dcdeb63c5")
+			(uuid "ec3e2e03-fe53-4975-89cc-af41620aa980")
 		)
 		(fp_line
-			(start 9.62 2.62)
-			(end 0.38 2.62)
+			(start 16.12 3.37)
+			(end 16.12 -3.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "213a61ca-3f3b-4052-9478-620c27cd81c9")
+			(uuid "a8e32777-6bfb-44a2-abd4-9a9d3bd229da")
 		)
 		(fp_line
-			(start -1.25 -2.75)
-			(end -1.25 2.75)
+			(start -1.05 -3.5)
+			(end -1.05 3.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7a101984-1010-452a-976c-c2c8ddf12330")
+			(uuid "de2a4c5e-cc86-40ff-b5a5-566c49efe0c1")
 		)
 		(fp_line
-			(start -1.25 2.75)
-			(end 11.25 2.75)
+			(start -1.05 3.5)
+			(end 21.05 3.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "38dc4f4b-76be-4fb5-a599-3f72adc75f43")
+			(uuid "f6b86360-6bff-4dd0-8156-d1097c3f3dc0")
 		)
 		(fp_line
-			(start 11.25 -2.75)
-			(end -1.25 -2.75)
+			(start 21.05 -3.5)
+			(end -1.05 -3.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "4f6e0d03-4555-43b0-bc44-8fff07cc62cb")
+			(uuid "4f5c2c55-d35b-410b-b102-b3e7061865ad")
 		)
 		(fp_line
-			(start 11.25 2.75)
-			(end 11.25 -2.75)
+			(start 21.05 3.5)
+			(end 21.05 -3.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "9435da3a-1c11-4b00-a5c3-92fc660f5a98")
+			(uuid "733455d2-2b1b-4df9-997c-42bb5bfaf49e")
 		)
 		(fp_line
-			(start 0.5 -2.5)
-			(end 0.5 2.5)
+			(start 4 -3.25)
+			(end 4 3.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "37bf05b2-e980-493d-b3d4-9a3999c303ac")
+			(uuid "36b97002-7247-4fc5-80b5-5e51770fe597")
 		)
 		(fp_line
-			(start 0.5 2.5)
-			(end 9.5 2.5)
+			(start 4 0)
+			(end 0 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "616d8897-b166-47c1-b0d1-b7c9e2a5fae7")
+			(uuid "029d70fe-8b89-4047-8fd8-835547449501")
 		)
 		(fp_line
-			(start 9.5 -2.5)
-			(end 0.5 -2.5)
+			(start 4 3.25)
+			(end 16 3.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "ec674f31-39ba-4420-92b8-a68dd78e980c")
+			(uuid "ca524068-7af0-4e05-9d90-8371a04afb69")
 		)
 		(fp_line
-			(start 9.5 2.5)
-			(end 9.5 -2.5)
+			(start 16 -3.25)
+			(end 4 -3.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3ae1b715-7426-4ff2-85d1-de7e6a133c82")
+			(uuid "189d27ed-23b7-4fa0-a241-17c334389898")
+		)
+		(fp_line
+			(start 16 0)
+			(end 20 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "c8c015df-f55a-45da-8fc3-48ea4daef2b4")
+		)
+		(fp_line
+			(start 16 3.25)
+			(end 16 -3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "32fdb022-ce63-4dfb-824c-ddc50f444918")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.5 0 0)
+			(at 10 0 180)
 			(layer "B.Fab")
-			(uuid "5b09bfbe-1299-4dea-bae8-7d945d37ab79")
+			(uuid "7e6971a7-0beb-434a-8e69-4062a2cddbd0")
 			(effects
 				(font
 					(size 1 1)
@@ -5981,25 +5268,25 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "Net-(Q1-B)")
 			(pintype "passive")
-			(uuid "4a74df74-aa0a-4cf1-a751-b2959b3f5481")
+			(uuid "3740ce5f-bc96-418e-890d-da2c5010c04c")
 		)
-		(pad "2" thru_hole circle
-			(at 10 0)
-			(size 2 2)
-			(drill 1)
+		(pad "2" thru_hole oval
+			(at 20 0)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Net-(SW1-A)")
 			(pintype "passive")
-			(uuid "be40b797-69e1-4151-a5fd-c89ec8a67691")
+			(uuid "ee508472-f379-41ec-a71b-0d06f9939751")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D9.0mm_W5.0mm_P10.00mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6014,11 +5301,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "98f94b22-bf32-4d88-8ccd-cc26f07a0253")
-		(at 171.16 52 180)
+		(at 161 48.08 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 5.08 2.37 0)
+			(at 12.58 0 90)
 			(layer "B.SilkS")
 			(uuid "61869cc0-431f-48ba-a381-4ed3c5988850")
 			(effects
@@ -6030,7 +5317,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 5.08 -2.37 0)
+			(at 5.08 -2.37 90)
 			(layer "B.Fab")
 			(uuid "37b688b3-fcb3-4f44-a715-a5dd7dc0764b")
 			(effects
@@ -6042,7 +5329,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6056,7 +5343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6070,7 +5357,7 @@
 			)
 		)
 		(property "Description" "VR25000001004JR500"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6089,26 +5376,6 @@
 		(sheetfile "Astro Boost.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 8.35 1.37)
-			(end 8.35 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "61ec2d4a-d5a8-4fdd-a14a-ed72c9857852")
-		)
-		(fp_line
-			(start 8.35 0)
-			(end 9.12 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "39f68b2a-a47f-404c-89c7-e44fa9ffdf30")
-		)
-		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
 			(stroke
@@ -6117,26 +5384,6 @@
 			)
 			(layer "B.SilkS")
 			(uuid "a3ae9312-2c3a-42d0-a013-930d192a8db6")
-		)
-		(fp_line
-			(start 1.81 1.37)
-			(end 8.35 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "96172938-6cf8-4e5e-8a03-dbda68c2d022")
-		)
-		(fp_line
-			(start 1.81 0)
-			(end 1.04 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7632b1d7-9e1a-4dd3-a815-d5880a7e70c8")
 		)
 		(fp_line
 			(start 1.81 -1.37)
@@ -6149,14 +5396,44 @@
 			(uuid "ab5bd70a-3ff2-457a-8603-2c27ff87186b")
 		)
 		(fp_line
-			(start 11.21 1.5)
-			(end 11.21 -1.5)
+			(start 8.35 0)
+			(end 9.12 0)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "6838f91a-bb11-4635-81e6-5f3247cc7b4a")
+			(layer "B.SilkS")
+			(uuid "39f68b2a-a47f-404c-89c7-e44fa9ffdf30")
+		)
+		(fp_line
+			(start 1.81 0)
+			(end 1.04 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "7632b1d7-9e1a-4dd3-a815-d5880a7e70c8")
+		)
+		(fp_line
+			(start 8.35 1.37)
+			(end 8.35 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "61ec2d4a-d5a8-4fdd-a14a-ed72c9857852")
+		)
+		(fp_line
+			(start 1.81 1.37)
+			(end 8.35 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "96172938-6cf8-4e5e-8a03-dbda68c2d022")
 		)
 		(fp_line
 			(start 11.21 -1.5)
@@ -6169,16 +5446,6 @@
 			(uuid "fd8ddfae-cf42-4261-96ba-f83d9b3cb2a1")
 		)
 		(fp_line
-			(start -1.05 1.5)
-			(end 11.21 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f13fad0b-3a95-450c-b9c0-3947953270f6")
-		)
-		(fp_line
 			(start -1.05 -1.5)
 			(end -1.05 1.5)
 			(stroke
@@ -6189,24 +5456,24 @@
 			(uuid "408d2286-c70a-42a5-afc5-6141410fc860")
 		)
 		(fp_line
-			(start 8.23 1.25)
-			(end 8.23 -1.25)
+			(start 11.21 1.5)
+			(end 11.21 -1.5)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "74705fff-1f0d-485a-a22c-77a88945852c")
+			(layer "B.CrtYd")
+			(uuid "6838f91a-bb11-4635-81e6-5f3247cc7b4a")
 		)
 		(fp_line
-			(start 8.23 0)
-			(end 10.16 0)
+			(start -1.05 1.5)
+			(end 11.21 1.5)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "b2e82601-e822-4b34-b17f-bb6e4c97584a")
+			(layer "B.CrtYd")
+			(uuid "f13fad0b-3a95-450c-b9c0-3947953270f6")
 		)
 		(fp_line
 			(start 8.23 -1.25)
@@ -6219,14 +5486,24 @@
 			(uuid "55c6fc62-019c-4247-9012-44cce668a559")
 		)
 		(fp_line
-			(start 1.93 1.25)
-			(end 8.23 1.25)
+			(start 1.93 -1.25)
+			(end 1.93 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "25481caf-3906-4cd4-aa2f-4488a8e83018")
+			(uuid "9905ac2f-f414-4ac2-b921-3961641013bb")
+		)
+		(fp_line
+			(start 8.23 0)
+			(end 10.16 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "b2e82601-e822-4b34-b17f-bb6e4c97584a")
 		)
 		(fp_line
 			(start 1.93 0)
@@ -6239,17 +5516,27 @@
 			(uuid "d93314bf-c843-42a2-b785-4e6a1eeb0065")
 		)
 		(fp_line
-			(start 1.93 -1.25)
-			(end 1.93 1.25)
+			(start 8.23 1.25)
+			(end 8.23 -1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "9905ac2f-f414-4ac2-b921-3961641013bb")
+			(uuid "74705fff-1f0d-485a-a22c-77a88945852c")
+		)
+		(fp_line
+			(start 1.93 1.25)
+			(end 8.23 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "25481caf-3906-4cd4-aa2f-4488a8e83018")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "B.Fab")
 			(uuid "77ed9acf-ea6e-4c57-8935-601892e453ed")
 			(effects
@@ -6261,7 +5548,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 180)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -6271,7 +5558,7 @@
 			(uuid "042c33ca-9271-4be9-b5ad-ca02ceeff6a9")
 		)
 		(pad "2" thru_hole oval
-			(at 10.16 0 180)
+			(at 10.16 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -6295,11 +5582,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "9b983c67-3950-4afe-b81f-580ec5094bc6")
-		(at 141.2 56.25 180)
+		(at 144.25 49.1 90)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R3"
-			(at 6.35 -2.5 0)
+			(at 6.35 -2.5 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "f1968c64-8742-4811-9907-76b3032751d5")
@@ -6312,7 +5599,7 @@
 			)
 		)
 		(property "Value" "3.9K"
-			(at 6.35 -2.72 0)
+			(at 6.35 -2.72 90)
 			(layer "B.Fab")
 			(uuid "a062a4e8-97bd-45a5-a674-796ab6307f95")
 			(effects
@@ -6324,7 +5611,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6338,7 +5625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6352,7 +5639,7 @@
 			)
 		)
 		(property "Description" "PR02000203901JR500"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6371,26 +5658,6 @@
 		(sheetfile "Astro Boost.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 10.97 1.72)
-			(end 10.97 -1.72)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b9a2fc2c-9315-419c-90e0-9e65dc160cf4")
-		)
-		(fp_line
-			(start 10.97 0)
-			(end 11.66 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "62a74866-f7fe-48d4-8096-cd49cb04448a")
-		)
-		(fp_line
 			(start 10.97 -1.72)
 			(end 1.73 -1.72)
 			(stroke
@@ -6399,26 +5666,6 @@
 			)
 			(layer "B.SilkS")
 			(uuid "ec2a6b5b-6fe3-4a6c-bfa2-98d2265c5bd5")
-		)
-		(fp_line
-			(start 1.73 1.72)
-			(end 10.97 1.72)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3f727538-659a-4947-b4d8-b4e629a580a0")
-		)
-		(fp_line
-			(start 1.73 0)
-			(end 1.04 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d21c58e4-7bae-4df9-b3e8-f8ce1bc38400")
 		)
 		(fp_line
 			(start 1.73 -1.72)
@@ -6431,14 +5678,44 @@
 			(uuid "004db0a7-481c-4967-b383-cd2b934cf127")
 		)
 		(fp_line
-			(start 13.75 1.85)
-			(end 13.75 -1.85)
+			(start 10.97 0)
+			(end 11.66 0)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "dc7a9761-51b2-4ba6-b1ff-b0503022b5d7")
+			(layer "B.SilkS")
+			(uuid "62a74866-f7fe-48d4-8096-cd49cb04448a")
+		)
+		(fp_line
+			(start 1.73 0)
+			(end 1.04 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "d21c58e4-7bae-4df9-b3e8-f8ce1bc38400")
+		)
+		(fp_line
+			(start 10.97 1.72)
+			(end 10.97 -1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "b9a2fc2c-9315-419c-90e0-9e65dc160cf4")
+		)
+		(fp_line
+			(start 1.73 1.72)
+			(end 10.97 1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "3f727538-659a-4947-b4d8-b4e629a580a0")
 		)
 		(fp_line
 			(start 13.75 -1.85)
@@ -6451,16 +5728,6 @@
 			(uuid "f05e34f4-1e98-4328-b9eb-fdc5e9988584")
 		)
 		(fp_line
-			(start -1.05 1.85)
-			(end 13.75 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "dbabde39-47a9-4c98-a67c-836b5eb976ce")
-		)
-		(fp_line
 			(start -1.05 -1.85)
 			(end -1.05 1.85)
 			(stroke
@@ -6471,24 +5738,24 @@
 			(uuid "8f13678f-6b4b-457d-bbce-78d24b944c32")
 		)
 		(fp_line
-			(start 10.85 1.6)
-			(end 10.85 -1.6)
+			(start 13.75 1.85)
+			(end 13.75 -1.85)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "427a6247-95e4-45eb-8aa0-83400807fe2b")
+			(layer "B.CrtYd")
+			(uuid "dc7a9761-51b2-4ba6-b1ff-b0503022b5d7")
 		)
 		(fp_line
-			(start 10.85 0)
-			(end 12.7 0)
+			(start -1.05 1.85)
+			(end 13.75 1.85)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "988bf509-c8a0-4afe-8c6a-43d17f8360d7")
+			(layer "B.CrtYd")
+			(uuid "dbabde39-47a9-4c98-a67c-836b5eb976ce")
 		)
 		(fp_line
 			(start 10.85 -1.6)
@@ -6501,14 +5768,24 @@
 			(uuid "876b5c9d-97af-4f3d-bef7-1fbac5b29eb8")
 		)
 		(fp_line
-			(start 1.85 1.6)
-			(end 10.85 1.6)
+			(start 1.85 -1.6)
+			(end 1.85 1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e7f9b21f-2721-4633-a7da-c7873f372b2c")
+			(uuid "f73ed1da-fb9a-4968-8d9f-5ee2346174ab")
+		)
+		(fp_line
+			(start 10.85 0)
+			(end 12.7 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "988bf509-c8a0-4afe-8c6a-43d17f8360d7")
 		)
 		(fp_line
 			(start 1.85 0)
@@ -6521,17 +5798,27 @@
 			(uuid "66f9f4a9-be2d-48dc-bdb7-28d7c5cfc312")
 		)
 		(fp_line
-			(start 1.85 -1.6)
-			(end 1.85 1.6)
+			(start 10.85 1.6)
+			(end 10.85 -1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "f73ed1da-fb9a-4968-8d9f-5ee2346174ab")
+			(uuid "427a6247-95e4-45eb-8aa0-83400807fe2b")
+		)
+		(fp_line
+			(start 1.85 1.6)
+			(end 10.85 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e7f9b21f-2721-4633-a7da-c7873f372b2c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.35 0 0)
+			(at 6.35 0 90)
 			(layer "B.Fab")
 			(uuid "619ef6f6-6aba-45ca-acfe-0531c5e29a62")
 			(effects
@@ -6543,7 +5830,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 180)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6553,7 +5840,7 @@
 			(uuid "a87dd7ce-896f-4868-a4ea-2a5359ef0981")
 		)
 		(pad "2" thru_hole oval
-			(at 12.7 0 180)
+			(at 12.7 0 90)
 			(size 1.6 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6563,6 +5850,171 @@
 			(uuid "f50d4b78-ae4e-42c8-a78d-af7051d7d22f")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "B.Cu")
+		(uuid "a5cd19fb-25be-44aa-9ad7-ab43d0df99dc")
+		(at 146.75 103.75 180)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J9"
+			(at 0 2.2 0)
+			(layer "B.SilkS")
+			(uuid "71c29910-46d4-4710-9c4d-2fb3c12d6f26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Power from 9V to SW"
+			(at 0 -2.2 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1e98c19a-b523-40af-b915-274ebe710f38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d09562c-b78b-4cc6-8ce6-c53ec2745b29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "952290c4-4e77-4065-b7e8-97d3c11dd3fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "73a657ec-74ed-476d-a3bc-caa2d562d31c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/34edf7bc-7a09-48fa-bd74-fbef63c3a77e")
+		(sheetname "Root")
+		(sheetfile "Astro Boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "ed15dc80-d19f-4ea6-8676-b52cecd135f4")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "fd8efeb0-fecc-43ed-9629-35989162f096")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "35d44283-1a83-44ba-be9a-67c84d578ced")
+		)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "bb4ca42d-fe47-4d2f-90fa-fb5a1d1d19f3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "d3176225-ba7c-426b-810b-cb920bf69852")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "d6c4a8dd-8970-42fd-b4b6-df4b17c1272c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 17 "Power from 9V")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "a3ac076c-5355-4643-9274-d3c5928326a1")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6676,10 +6128,175 @@
 			)
 		)
 	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "B.Cu")
+		(uuid "a9b2cf9a-edac-4a3f-b961-db10d418eed1")
+		(at 168.5 103.75 180)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J4"
+			(at 0 2.75 0)
+			(layer "B.SilkS")
+			(uuid "2db32a71-dfd6-467e-9778-09b8b15737f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Signal In"
+			(at 0 -2.2 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ff3bedac-a255-4549-accf-0857c509a7da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3bb0a2e9-38c9-48b3-829b-21098318ce36")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc8e5903-7549-4139-91ea-aeb9ee47a15e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "001af2f0-2de8-43a8-b1be-d37831d91f7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/e00e5a0b-8553-4dd5-b593-512f2f94dd36")
+		(sheetname "Root")
+		(sheetfile "Astro Boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6db8a670-8cfa-45e0-b4cd-a476924403b9")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "efbbf0b4-963c-4419-b303-20eaaf56a436")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f630bec3-ee49-48ab-91e1-6971b03e737f")
+		)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f718ab4f-8edd-4261-b4d3-611c160c2bff")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "6fc5e77e-e21f-4479-b670-48a8914fc3a4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "740c067a-03d8-4b96-9cc0-b33889d83cb3")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 15 "Net-(J4-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "e1c9e140-febf-46a4-bdf0-388f591a45d3")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 		(layer "B.Cu")
 		(uuid "adb0f76f-340d-4173-9914-38711e1be3f8")
-		(at 140.75 74 -90)
+		(at 141.45 73.95 -90)
 		(descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C6"
@@ -6834,7 +6451,7 @@
 	(footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 		(layer "B.Cu")
 		(uuid "ae600eab-5bdd-4d98-9325-35c2c93bd2fc")
-		(at 160.25 61.25 -90)
+		(at 159.04 61.35 -90)
 		(descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C9"
@@ -6989,7 +6606,7 @@
 	(footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 		(layer "B.Cu")
 		(uuid "b39a72df-db83-4ee6-9eb4-172926142c9c")
-		(at 160.25 76 90)
+		(at 159.06 76.14 90)
 		(descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C8"
@@ -7143,7 +6760,7 @@
 	(footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
 		(layer "B.Cu")
 		(uuid "c19307a3-4fd4-4a55-9098-b765ef1eb8c9")
-		(at 136.685 81.385 180)
+		(at 136.685 82 180)
 		(descr "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins, https://www.neutrik.com/en/product/nmj6hcd2")
 		(tags "neutrik jack m")
 		(property "Reference" "J1"
@@ -7998,17 +7615,16 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm"
+	(footprint "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "c9d5f22c-7758-4407-a5db-da10eb9dca31")
-		(at 157.5 38 -90)
-		(descr "C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=9*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
-		(tags "C Disc series Radial pin pitch 10.00mm  diameter 9mm width 5.0mm Capacitor")
+		(at 175.75 53.75 180)
+		(descr "C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=12*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
+		(tags "C Axial series Axial Horizontal pin pitch 20mm  length 12mm diameter 6.5mm")
 		(property "Reference" "C1"
-			(at 5 3.75 90)
+			(at 10 4.37 0)
 			(layer "B.SilkS")
-			(hide yes)
-			(uuid "318c2dad-7744-408e-b388-33b3a89709b6")
+			(uuid "d77d3f17-6501-48ae-be7d-a08add546c20")
 			(effects
 				(font
 					(size 1 1)
@@ -8018,9 +7634,9 @@
 			)
 		)
 		(property "Value" "5n"
-			(at 5 -3.75 90)
+			(at 10 -4.37 0)
 			(layer "B.Fab")
-			(uuid "3093c176-245f-4a82-bfc6-496dfd5e9300")
+			(uuid "56a6f937-07cf-4577-b435-84bfd9e7b709")
 			(effects
 				(font
 					(size 1 1)
@@ -8029,12 +7645,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm"
-			(at 0 0 90)
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "da0fc794-8dc9-47f9-8646-e59459b88d57")
+			(uuid "18775ea3-57d3-4525-8013-29b314e117ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,11 +7660,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "88530580-aae8-4b8b-8794-6f7d6cf82165")
+			(uuid "7600a041-7b56-49f4-a83e-02d6ab9c41f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,12 +7673,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "S502M75Z5UR83L0R"
-			(at 0 0 90)
+		(property "Description" "23PS250"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "49e5d730-2920-4c50-a5cf-ba64c57048b9")
+			(uuid "ae70ff9b-7996-4575-a98f-7d45e293cd28")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,149 +7693,169 @@
 		(sheetfile "Astro Boost.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 9.62 2.62)
-			(end 0.38 2.62)
+			(start 16.12 3.37)
+			(end 16.12 -3.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "bcc4a42c-177b-4021-828a-ddcf7f776751")
+			(uuid "5c48f6cb-8b3c-45cb-8df2-b0956440804c")
 		)
 		(fp_line
-			(start 0.38 1.256)
-			(end 0.38 2.62)
+			(start 16.12 0)
+			(end 18.96 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "44a49aba-fceb-4f7c-b10a-4d2552cc0b30")
+			(uuid "c1f85ac0-f7cc-4dbe-862d-a91552b78466")
 		)
 		(fp_line
-			(start 9.62 1.256)
-			(end 9.62 2.62)
+			(start 16.12 -3.37)
+			(end 3.88 -3.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "54922f1a-8bc1-44fc-934a-d0e38f8009e4")
+			(uuid "84bcabdd-3e6b-4e67-9c6b-ecb4c466facf")
 		)
 		(fp_line
-			(start 0.38 -2.62)
-			(end 0.38 -1.256)
+			(start 3.88 3.37)
+			(end 16.12 3.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "513140bc-2053-4068-a749-4b1917b2c60f")
+			(uuid "9ffbe467-cbd2-4e0f-8d61-6862210c2431")
 		)
 		(fp_line
-			(start 9.62 -2.62)
-			(end 9.62 -1.256)
+			(start 3.88 0)
+			(end 1.04 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "bb667bfc-2d63-443c-870c-1be8f7fda40d")
+			(uuid "46a3b2d5-5a71-4abe-942a-d4665a249101")
 		)
 		(fp_line
-			(start 9.62 -2.62)
-			(end 0.38 -2.62)
+			(start 3.88 -3.37)
+			(end 3.88 3.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "0b4012b7-a24a-4d24-94b9-5a6b66340b94")
+			(uuid "b8ecbfa1-7fc7-4d2d-a9b9-cceb3dee1415")
 		)
 		(fp_line
-			(start -1.25 2.75)
-			(end 11.25 2.75)
+			(start 21.05 3.5)
+			(end 21.05 -3.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "cdc3e257-7e85-40de-ba2e-4e09b411d4c1")
+			(uuid "4254f478-a8a7-44e8-88a3-6c11415ca797")
 		)
 		(fp_line
-			(start 11.25 2.75)
-			(end 11.25 -2.75)
+			(start 21.05 -3.5)
+			(end -1.05 -3.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e99b92c6-3ee5-439a-ab5d-395648c91474")
+			(uuid "4df48c58-464a-4bcd-8bd3-2dd0583069ec")
 		)
 		(fp_line
-			(start -1.25 -2.75)
-			(end -1.25 2.75)
+			(start -1.05 3.5)
+			(end 21.05 3.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ff92ecdc-13ea-4779-9ce8-c21f378b8011")
+			(uuid "c1f8319f-507f-4041-a29e-9c127449f341")
 		)
 		(fp_line
-			(start 11.25 -2.75)
-			(end -1.25 -2.75)
+			(start -1.05 -3.5)
+			(end -1.05 3.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d47403a4-3286-4188-8615-a626b1b326b5")
+			(uuid "aa36deb2-3fea-4fd0-aeef-22135c698b5e")
 		)
 		(fp_line
-			(start 0.5 2.5)
-			(end 9.5 2.5)
+			(start 16 3.25)
+			(end 16 -3.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "024941d6-140d-4bc0-b616-223828a49e1c")
+			(uuid "73271f35-27d7-4c28-a3c2-cfbf66655fe7")
 		)
 		(fp_line
-			(start 9.5 2.5)
-			(end 9.5 -2.5)
+			(start 16 0)
+			(end 20 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "6005d754-2f34-49c4-afb2-2895e6eba459")
+			(uuid "0e261fbb-f32a-4c16-b869-920dfa90a16e")
 		)
 		(fp_line
-			(start 0.5 -2.5)
-			(end 0.5 2.5)
+			(start 16 -3.25)
+			(end 4 -3.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "8b816526-e7ac-4258-b99f-8a61ee33248d")
+			(uuid "4d4e2be3-67e5-4913-8833-80e836f43448")
 		)
 		(fp_line
-			(start 9.5 -2.5)
-			(end 0.5 -2.5)
+			(start 4 3.25)
+			(end 16 3.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e59b6810-01db-4fc3-985d-c468d858f5af")
+			(uuid "7a3e0fbb-a604-49a8-b2a5-20927df436e5")
+		)
+		(fp_line
+			(start 4 0)
+			(end 0 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "a1439491-5349-4de6-a3c4-8218883eb4cc")
+		)
+		(fp_line
+			(start 4 -3.25)
+			(end 4 3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "eecaa328-9d39-4d70-8a4b-25130c81d1e1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5 0 90)
+			(at 10 0 0)
 			(layer "B.Fab")
-			(uuid "e11d7730-c710-49a6-81f3-5e961c470888")
+			(uuid "b6d20a06-7c43-4858-a304-10a508cf29a5")
 			(effects
 				(font
 					(size 1 1)
@@ -8229,26 +7865,356 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
-			(size 2 2)
-			(drill 1)
+			(at 0 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "Net-(Q1-B)")
 			(pintype "passive")
-			(uuid "9251282d-7a34-4c61-ae9c-bd200acba33e")
+			(uuid "ae481c2f-59c9-4ab2-a04a-dab2dfb96653")
 		)
-		(pad "2" thru_hole circle
-			(at 10 0 270)
-			(size 2 2)
-			(drill 1)
+		(pad "2" thru_hole oval
+			(at 20 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 4 "Audio In")
 			(pintype "passive")
-			(uuid "c23f70eb-5a52-41b1-b151-42dd47973037")
+			(uuid "48fd2d45-cc9c-45fd-9684-7ad1bd1ef687")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D9.0mm_W5.0mm_P10.00mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "B.Cu")
+		(uuid "d0d157ec-e2bd-42eb-a6e2-bfecfa2cacba")
+		(at 142 103.75 180)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J10"
+			(at 0 2.5 0)
+			(layer "B.SilkS")
+			(uuid "0a3550c1-0bab-4110-a730-d214f50ccf6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Power from SW to PS"
+			(at 0 -2.2 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e2201b0-6ca0-4b02-b393-7ea52e4f7dc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e798d30c-51be-4355-9fe0-b6b38d33cd87")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3425383d-5fc2-4575-978d-2da1b53e95df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "56f6d5d3-1750-4b79-9536-c214abb6fb76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/2ee39440-2017-4c5a-bc89-5f387c4d51cb")
+		(sheetname "Root")
+		(sheetfile "Astro Boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "76728de4-b075-4c3e-9abe-922987ba9aea")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d6303b33-25b6-488b-b8e6-fb8c91d0ea3f")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "bcaf42aa-d05e-4fe3-ae6a-ec16275aff03")
+		)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "ec5f5bd0-fb28-4f86-a8dd-0be956a09107")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "012a28ad-b592-4af7-92db-62062a50144a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "e5c56b14-f470-41a5-a5f1-fc6689d09ae4")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 1 "+9V")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "e39c48b1-34a2-47a8-86cb-eb21afe1af6b")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "B.Cu")
+		(uuid "d1c1ea13-62bf-40f5-8801-21a71cd95386")
+		(at 137.5 104 180)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J11"
+			(at 0 2.5 0)
+			(layer "B.SilkS")
+			(uuid "8e2636ab-1243-4f47-92a7-63e031e10db9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "+9V"
+			(at 0 -2.75 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "369e9190-84d0-4b79-af02-c81620d43371")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "676b8b80-5dbe-4f80-9493-831642a91643")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "38b5b856-ac5f-46dc-9237-c57c13de6150")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bdc9c1c8-dc82-4626-be49-77961898eec4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/e337fd2a-d73e-4d16-a2f0-59c9767a61c9")
+		(sheetname "Root")
+		(sheetfile "Astro Boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "70e1ce07-8629-4946-8e7b-d20dac14b82e")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "75186504-1874-4744-9c9a-1e9b2937454f")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c0569010-d842-4d27-9346-fafaf81602bf")
+		)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "aedacef8-eb57-412a-a932-e566d0261362")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "37892450-cbc0-475d-8b0d-bf0f5c6f6340")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "f2d520ec-e914-4a68-9ad8-2744184b126f")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 17 "Power from 9V")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "3ae2409a-da80-4af2-9193-d6bc49286719")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8263,7 +8229,7 @@
 	(footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
 		(layer "B.Cu")
 		(uuid "d582d34c-1001-4778-8ba9-8b5b8fd18f0b")
-		(at 163.815 97.615)
+		(at 163.815 98.23)
 		(descr "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins, https://www.neutrik.com/en/product/nmj6hcd2")
 		(tags "neutrik jack m")
 		(property "Reference" "J2"
@@ -8734,10 +8700,175 @@
 			)
 		)
 	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "B.Cu")
+		(uuid "dd0323b2-b161-4588-b303-36ee3b512ad1")
+		(at 133 104 180)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J12"
+			(at 0 2.2 0)
+			(layer "B.SilkS")
+			(uuid "c6cee2d8-7554-4323-b174-e274a97a02ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "-9V"
+			(at 0 -2.2 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a92e9bec-e1a4-414b-8f0c-d3b989e99eb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "50ef5fb9-e36d-4244-b505-5b4431264bab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "45aa5d3a-8443-41dc-8782-925d5b958077")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "44f673cd-9599-400f-a438-d06a525f0556")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/285972d0-4a93-4f89-812d-14a90bd2024c")
+		(sheetname "Root")
+		(sheetfile "Astro Boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c344d787-dfa5-48fc-b12f-8a700766142b")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "e5b6c1d3-1f5e-41a9-8309-f1aaae4fc127")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "7c812ea2-9b3c-4839-9c94-5b115a4af007")
+		)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "0ca5691c-edcf-4d76-9179-bc243cb6751b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "380c3ad4-306a-4c1a-ab4d-9ef70fb93856")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "e50d0d59-59cf-4bb4-990f-47c203909e33")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 2 "0")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "8a5cda84-f5f7-4a8f-b3b2-403e124b3922")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 		(layer "B.Cu")
 		(uuid "e96b010d-b6b5-4cb6-a66d-111a6127838c")
-		(at 140.5 63.8 90)
+		(at 141.42 64.42 90)
 		(descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C3"
@@ -8890,7 +9021,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 132.5 25) (xy 168 25) (xy 178.25 34.5) (xy 178.25 107.25) (xy 122.5 107.25) (xy 122.25 100.25)
+			(xy 132.5 25) (xy 168 25) (xy 178.25 34.5) (xy 178.25 107.25) (xy 122.25 107.25) (xy 122.25 100.25)
 			(xy 122.25 34.5)
 		)
 		(stroke
@@ -8922,8 +9053,68 @@
 		(layer "F.Fab")
 		(uuid "e67f16c9-3cfc-463d-87f3-e94cc269d1b9")
 	)
+	(gr_text "R1"
+		(at 157.75 34.25 90)
+		(layer "B.SilkS")
+		(uuid "3003af35-1554-4977-bed1-dd2f4fe142b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "R3"
+		(at 144 34 90)
+		(layer "B.SilkS")
+		(uuid "4af61c96-e990-44a0-8980-07be1751f3f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "D2"
+		(at 150.25 78.75 0)
+		(layer "B.SilkS")
+		(uuid "558c943a-2968-4314-80d9-bc14eda49963")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "C10"
+		(at 160.25 66.5 0)
+		(layer "B.SilkS")
+		(uuid "6d983063-d145-4315-879e-bf8d9ea4d775")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Q1"
+		(at 150.25 59.75 0)
+		(layer "B.SilkS")
+		(uuid "7927519f-a9d8-4190-b34d-849239bde695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "+\n-"
-		(at 166.75 64.25 -0)
+		(at 166.75 64 -0)
 		(layer "B.SilkS")
 		(uuid "8241c9c5-cc9b-4806-b458-a3f8b3a27067")
 		(effects
@@ -8936,7 +9127,7 @@
 		)
 	)
 	(gr_text "+\n-"
-		(at 136.5 65 -0)
+		(at 136.75 64.25 -0)
 		(layer "B.SilkS")
 		(uuid "8aeb8484-a24c-4206-a61a-07decfb2fdae")
 		(effects
@@ -8948,8 +9139,44 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "C2"
+		(at 126.75 58.5 0)
+		(layer "B.SilkS")
+		(uuid "991da0f7-309e-442b-8423-501d62167bfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "C3"
+		(at 140.5 58 0)
+		(layer "B.SilkS")
+		(uuid "999fa4c3-e932-4edc-b491-b145252e99c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "C9"
+		(at 160.25 58 0)
+		(layer "B.SilkS")
+		(uuid "a7749158-348a-49dd-acbe-0b382c6d4a51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "+\n-"
-		(at 166.75 76.75 -0)
+		(at 164.8 76.85 -0)
 		(layer "B.SilkS")
 		(uuid "aa13196a-307d-41d2-806d-85edf108463a")
 		(effects
@@ -8974,8 +9201,56 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "C8"
+		(at 160.25 70.75 0)
+		(layer "B.SilkS")
+		(uuid "ba278f56-f62c-41f3-ac8d-0251be78a2d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "C4"
+		(at 170.5 58.5 0)
+		(layer "B.SilkS")
+		(uuid "c1004ce8-0dba-4727-9ab2-0b385bb33226")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "C6"
+		(at 140.75 71 0)
+		(layer "B.SilkS")
+		(uuid "cfdb8379-a73b-4dea-ad88-299822ac3c28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "C7"
+		(at 140.5 66.75 0)
+		(layer "B.SilkS")
+		(uuid "eff5ba60-1943-459a-be06-bdcfed0067f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "+"
-		(at 155 58.75 0)
+		(at 154.5 54.5 0)
 		(layer "F.SilkS")
 		(uuid "7f26b2c9-52ee-4f67-8003-75d33e5881ec")
 		(effects
@@ -9003,15 +9278,15 @@
 	(dimension
 		(type aligned)
 		(layer "F.Fab")
-		(uuid "51c99ee9-aa09-42cb-845e-dd2af5704677")
+		(uuid "c70a7b85-3ae8-4583-895d-c5229b71e9ad")
 		(pts
-			(xy 178.2 46.35) (xy 175.2 46.35)
+			(xy 122.25 107.25) (xy 122.25 100.25)
 		)
-		(height 7.65)
-		(gr_text "3.0000 mm"
-			(at 176.7 37.55 0)
+		(height -6.5)
+		(gr_text "7.0000 mm"
+			(at 114.25 103.75 90)
 			(layer "F.Fab")
-			(uuid "51c99ee9-aa09-42cb-845e-dd2af5704677")
+			(uuid "c70a7b85-3ae8-4583-895d-c5229b71e9ad")
 			(effects
 				(font
 					(size 1 1)
@@ -9029,39 +9304,72 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.Fab")
+		(uuid "d8d343b3-896d-4f10-823b-e8e07a7c8bf4")
+		(pts
+			(xy 178.25 107.25) (xy 178.25 100.25)
+		)
+		(height 7.25)
+		(gr_text "7.0000 mm"
+			(at 186.75 103.75 90)
+			(layer "F.Fab")
+			(uuid "d8d343b3-896d-4f10-823b-e8e07a7c8bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
-		(start 161 102.5)
-		(end 159.75 103.75)
+		(start 140.5 102.5)
+		(end 141.75 103.75)
 		(width 0.2)
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(net 1)
 		(uuid "b4bbfb1d-9daa-4f07-80c5-00ce506ea29c")
 	)
 	(segment
-		(start 159.75 103.75)
-		(end 159.5 103.75)
+		(start 141.75 103.75)
+		(end 142 103.75)
 		(width 0.2)
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(net 1)
 		(uuid "cbd6f282-f4c9-476c-bacd-ed0b1d092795")
 	)
 	(segment
-		(start 142.19 103.94)
-		(end 142 103.75)
+		(start 159.31 103.94)
+		(end 159.5 103.75)
 		(width 0.2)
-		(layer "F.Cu")
+		(layer "B.Cu")
 		(net 16)
 		(uuid "c8c1eb54-7d7c-4382-bee2-fb93c3ed9cee")
 	)
 	(segment
-		(start 146 103.625)
-		(end 146 102.875)
+		(start 155.5 103.625)
+		(end 155.5 102.875)
 		(width 0.2)
-		(layer "F.Cu")
+		(layer "B.Cu")
 		(net 18)
 		(uuid "ad9aa7d7-ee22-4b3b-9625-dc184c05baa8")
 	)
